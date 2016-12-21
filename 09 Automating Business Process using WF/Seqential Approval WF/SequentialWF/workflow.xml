@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Workflow
+     Name="SequentialApprovalWF"
+     Description="A demo sequential approval WF"
+     Id="a400ba47-c5ec-4f4e-9426-ef559b21a3e6"
+     CodeBesideClass="SequentialWF.SeqApprovalWF"
+     CodeBesideAssembly="SequentialWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=660c3f4aad8d400f"
+	  TaskListContentTypeId="0x01080100C9C9515DE4E24001905074F980F93160"
+	  AssociationUrl="_layouts/CstWrkflIP.aspx"
+	  InstantiationUrl="_layouts/IniWrkflIP.aspx"
+	  ModificationUrl="_layouts/ModWrkflIP.aspx"
+	  StatusUrl="_layouts/WrkStat.aspx">
+	  <Categories/>	  
+		
+    <MetaData>
+		<Association_FormURN>urn:schemas-microsoft-com:office:infopath:InitForm:-myXSD-2008-10-15T18-25-29</Association_FormURN>
+		<!--used only when the wf is manually started-->
+		<Instantiation_FormURN>urn:schemas-microsoft-com:office:infopath:InitForm:-myXSD-2008-10-15T18-25-29</Instantiation_FormURN>
+		<Task0_FormURN>urn:schemas-microsoft-com:office:infopath:EditForm:-myXSD-2008-10-15T18-45-02</Task0_FormURN>
+		<StatusPageURL>_layouts/wrkStat.aspx</StatusPageURL>
+		<Modification_GUID_FormURN>modificationURN</Modification_GUID_FormURN>
+		<Modification_GUID_Name>Name of Modification</Modification_GUID_Name>
+		<!--<AssociateOnActivation>false</AssociateOnActivation>-->
+      <StatusPageUrl>_layouts/WrkStat.aspx</StatusPageUrl>
+    </MetaData>
+	  
+  </Workflow>
+</Elements>

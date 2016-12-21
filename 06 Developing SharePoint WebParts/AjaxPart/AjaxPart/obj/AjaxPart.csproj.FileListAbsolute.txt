@@ -1,0 +1,7 @@
+E:\AjaxPart\AjaxPart\obj\Debug\ResolveAssemblyReference.cache
+E:\AjaxPart\AjaxPart\bin\Debug\AjaxPart.dll
+E:\AjaxPart\AjaxPart\bin\Debug\AjaxPart.pdb
+E:\AjaxPart\AjaxPart\bin\Debug\Microsoft.SharePoint.Search.dll
+E:\AjaxPart\AjaxPart\bin\Debug\Microsoft.SharePoint.Search.xml
+E:\AjaxPart\AjaxPart\obj\Debug\AjaxPart.dll
+E:\AjaxPart\AjaxPart\obj\Debug\AjaxPart.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\Membership\", "", "{BE93FAB1-F876-4485-999E-8E2E22FD5AC6}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Membership"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Workshop\Block02\Demos3\Membership\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Membership\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "true"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Membership"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Workshop\Block02\Demos3\Membership\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Membership\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "true"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1282"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE93FAB1-F876-4485-999E-8E2E22FD5AC6}.Debug|.NET.ActiveCfg = Debug|.NET
+		{BE93FAB1-F876-4485-999E-8E2E22FD5AC6}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

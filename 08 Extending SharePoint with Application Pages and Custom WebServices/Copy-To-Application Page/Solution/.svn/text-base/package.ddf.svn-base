@@ -1,0 +1,15 @@
+;
+.OPTION EXPLICIT     ; Generate errors 
+.Set CabinetNameTemplate=CopyToFeature.wsp     
+.set DiskDirectoryTemplate=CDROM ; All cabinets go in a single directory
+.Set CompressionType=MSZIP;** All files are compressed in cabinet files
+.Set UniqueFiles="ON"
+.Set Cabinet=on
+.Set DiskDirectory1=Package
+
+manifest.xml 
+FEATURES\CopyToFeature\feature.xml CopyToFeature\feature.xml 
+FEATURES\CopyToFeature\elements.xml CopyToFeature\elements.xml
+LAYOUTS\CopyToFeature\CopyTo.aspx LAYOUTS\CopyTo.aspx
+
+..\bin\Debug\CopyToFeature.dll 

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamlQuery", "CamlQuery\CamlQuery\CamlQuery.csproj", "{84CE0A82-9DFF-449D-A9DF-9DEE3ED8DE9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List To CAML Tool", "List To CAML\List To CAML Tool.csproj", "{18ECF53C-350E-4FCA-B0A2-51D9EB0FC7C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "List Template", "List Template", "{7FC74D5E-6142-4982-90FE-0A02774AA486}"
+	ProjectSection(SolutionItems) = preProject
+		List Template\Caml Query.stp = List Template\Caml Query.stp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readings", "Readings", "{17FBE699-3344-43E6-B956-2E885AFDCBE8}"
+	ProjectSection(SolutionItems) = preProject
+		Readings\Collaborative Application Markup Language.pdf = Readings\Collaborative Application Markup Language.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84CE0A82-9DFF-449D-A9DF-9DEE3ED8DE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CE0A82-9DFF-449D-A9DF-9DEE3ED8DE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CE0A82-9DFF-449D-A9DF-9DEE3ED8DE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CE0A82-9DFF-449D-A9DF-9DEE3ED8DE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18ECF53C-350E-4FCA-B0A2-51D9EB0FC7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18ECF53C-350E-4FCA-B0A2-51D9EB0FC7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18ECF53C-350E-4FCA-B0A2-51D9EB0FC7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18ECF53C-350E-4FCA-B0A2-51D9EB0FC7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal

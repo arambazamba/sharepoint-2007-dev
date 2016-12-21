@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="3bb60c0c-cee5-413b-b583-7d0c23c992eb"
+      Title="Sequential Approval WF"
+      Description="A demo sequential approval WF"
+      Version="12.0.0.0"
+      Scope="Site"
+      ReceiverAssembly="Microsoft.Office.Workflow.Feature, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
+      ReceiverClass="Microsoft.Office.Workflow.Feature.WorkflowFeatureReceiver"
+      xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="workflow.xml" />
+	<ElementFile Location="Forms\InitForm.xsn"/>
+	<ElementFile Location="Forms\EditForm.xsn"/>
+  </ElementManifests>
+  <Properties>
+    <Property Key="GloballyAvailable" Value="true" />
+    <Property Key="RegisterForms" Value="Forms\*.xsn" />
+  </Properties>
+</Feature>

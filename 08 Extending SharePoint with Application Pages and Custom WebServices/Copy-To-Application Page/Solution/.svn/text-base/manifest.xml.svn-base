@@ -1,0 +1,12 @@
+﻿<Solution SolutionId="44BE5F4A-D561-4981-A318-95ABC706364A" 
+		  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <FeatureManifests>
+    <FeatureManifest Location="CopyToFeature\feature.xml" />
+  </FeatureManifests>
+  <TemplateFiles>
+    <TemplateFile Location="LAYOUTS\CopyTo.aspx"/>
+  </TemplateFiles>
+  <Assemblies>
+    <Assembly DeploymentTarget="GlobalAssemblyCache" Location="CopyToFeature.dll" />
+  </Assemblies>
+</Solution>

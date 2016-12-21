@@ -1,0 +1,14 @@
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\bin\Debug\FavoritesManager.exe.config
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\bin\Debug\FavoritesManager.exe
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\bin\Debug\FavoritesManager.pdb
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\bin\Debug\Microsoft.SharePoint.Search.dll
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\bin\Debug\Microsoft.SharePoint.Search.xml
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\obj\Debug\Integrations.wfFavorites.resources
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\obj\Debug\Integrations.Properties.Resources.resources
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\obj\Debug\Favorites Manager Client.csproj.GenerateResource.Cache
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\obj\Debug\FavoritesManager.exe
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\obj\Debug\FavoritesManager.pdb
+G:\Sharepoint Development\08 Extending SharePoint with Application Pages and Custom WebServices\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\bin\Debug\FavoritesManager.exe.config
+G:\Sharepoint Development\08 Extending SharePoint with Application Pages and Custom WebServices\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\obj\Debug\FavoritesManager.exe
+G:\Sharepoint Development\08 Extending SharePoint with Application Pages and Custom WebServices\Sharepoint Favorites Manager V 1.0\Favorites Manager Client\obj\Debug\FavoritesManager.pdb

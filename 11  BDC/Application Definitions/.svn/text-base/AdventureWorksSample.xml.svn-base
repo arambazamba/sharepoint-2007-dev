@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<LobSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://schemas.microsoft.com/office/2006/03/BusinessDataCatalog BDCMetadata.xsd" Type="Database"
+Version="1.0.0.0" Name="AdventureWorksSample"
+xmlns="http://schemas.microsoft.com/office/2006/03/BusinessDataCatalog">
+
+  <Properties>
+    <Property Name="WildcardCharacter" Type="System.String">%</Property>
+  </Properties>
+  <LobSystemInstances>
+    <LobSystemInstance Name="AdventureWorksSampleInstance">
+      <Properties>
+        <Property Name="AuthenticationMode"
+Type="System.String">PassThrough</Property>
+        <Property Name="DatabaseAccessProvider"
+Type="System.String">SqlServer</Property>
+
+        <Property Name="RdbConnection Data Source" Type="System.String">Chiron</Property>
+
+        <Property Name="RdbConnection Initial Catalog"
+    Type="System.String">AdventureWorks2000</Property>
+
+        <Property Name="RdbConnection Integrated Security"
+Type="System.String">SSPI</Property>
+
+        <Property Name="RdbConnection Pooling"
+Type="System.String">false</Property>
+      </Properties>
+    </LobSystemInstance>
+  </LobSystemInstances>
+  <Entities>
+    <Entity EstimatedInstanceCount="10000" Name="Product">
+      <!-- EstimatedInstanceCount is an optional attribute-->
+      <Properties>
+        <Property Name="Title" Type="System.String">Name</Property>
+        <!-- Specifies the name of the TypeDescriptor 
+        that corresponds to the column you want to display 
+        as the default column in Business Data lists
+        It also specifies which column in the Business Data   
+        List/Related List Web part displays the Actions menu.-->
+      </Properties>
+      <Identifiers>
+        <Identifier Name="ProductID" TypeName="System.Int32" />
+        <!-- Once defined, TypeDescriptors can be tagged with the 
+        Identifier to denote where the Business Data Catalog should 
+        plug in identifier values on input and read identifier values 
+        on output.  -->
+        <!-- If the entity uses a combination of keys to uniquely 
+        identify an entity instance, define multiple 
+        identifiers. The Business Data Catalog will use the 
+        combination to idenitfy entity instances.-->
+      </Identifiers>
+      <Methods>
+        <!-- Defines a method that brings back Product data from the 
+        back-end database. Methods are not executable until 
+        instantiated (referenced) by MethodInstances. -->
+        <Method Name="GetProducts">
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">
+              SELECT ProductID, Name, ProductNumber, ListPrice FROM Product WHERE (ProductID &gt;= @MinProductID) AND (ProductID &lt;= @MaxProductID) AND (Name LIKE @Name) AND (ProductNumber LIKE @ProductNumber)
+            </Property>
+            <Property Name="RdbCommandType" Type="System.Data.CommandType">Text</Property>
+            <!-- For database systems, can be Text, StoredProcedure, 
+            or TableDirect. -->
+          </Properties>
+          <FilterDescriptors>
+            <!-- Define the filters supported by the back-end method 
+           (or sql query) here. -->
+            <!-- Once a FilterDescriptor is defined, the metadata 
+            author can tag TypeDescriptors of input parameters with it. 
+            When the Business Data Catalog instantiates the parameters 
+            to execute the method it will plug in user or system 
+            provided values into these tagged slots automatically, 
+            overriding the default values. -->
+            <FilterDescriptor Type="Comparison" Name="ID" >
+              <Properties>
+                <!-- Equals is the default and may be omitted. -->
+                <Property Name="Comparator" Type="System.String">Equals</Property>
+              </Properties>
+            </FilterDescriptor>
+            <FilterDescriptor Type="Wildcard" Name="Name">
+              <Properties>
+                <Property Name="UsedForDisambiguation" Type="System.Boolean">true</Property>
+                <!-- The UsedForDisambiguation property is optional 
+                and is used by the entity instance picker (Business 
+                Data in Lists and Business Data Item Web Part). 
+                Users use the picker to pick a single instance of an 
+               entity and if their input partially matches many entity 
+               instances, the picker will display a list of matches to 
+               help the user disambiguate. This property tells the 
+               Business Data Catalog to use this filter for doing the 
+               partial match query. -->
+              </Properties>
+            </FilterDescriptor>
+            <FilterDescriptor Type="Wildcard" Name="ProductNumber" />
+          </FilterDescriptors>
+          <Parameters>
+            <!-- Parameter name must match the parameter name in the
+                 Sql query and in the stored procedure. -->
+            <Parameter Direction="In" Name="@MinProductID">
+              <TypeDescriptor TypeName="System.Int32" IdentifierName="ProductID" AssociatedFilter="ID" Name="MinProductID">
+                <!-- The AssociatedFilter attribute is required 
+                above because it's an input parameter and 
+                represents a filter column.-->
+                <!-- However, the AssociatedFilter attribute should 
+                not be used in return parameter's type 
+                descriptors. -->
+                <!-- The IdentifierName attribute on an input 
+                TypeDescriptor signals the Business Data Catalog to 
+                insert the identifier value of the entity instance of 
+                relevance before executing the method. For example, if 
+                this is part of a SpecificFinder MethodInstance, the 
+                user has probably provided the identifier value for the 
+                entity instance they want retrieved. The Business Data 
+                Catalog will insert that value into this slot after 
+                fully instantiating this parameter using all the 
+                default values. -->
+                <!-- The AssociatedFilter attribute on an input 
+                TypeDescriptor signals the Business Data Catalog to 
+                insert the user or system provided value after 
+                instantiating the parameter and before executing the 
+                method. For example, if this is part of a Finder 
+                MethodInstance, the user will have provided values for 
+               some or all the filters associated with the method. 
+               These will be inserted into the tagged slots before 
+               method execution. In this case, whatever the user 
+               supplied for the ID Comparison filter will be 
+               inserted. -->
+                <DefaultValues>
+                  <!-- Default Values differ across MethodInstances so 
+                that the parameter can be instantiated with different 
+                 values when executing different MethodInstances. In 
+                 this case, when executing the Finder, the Default 
+                 Value will be 0 and when executing any other 
+                 MethodInstance, the value will be NULL (But the NULL 
+                 will be changed to a 0 because the default value type 
+                 is non-nullable Int32.  -->
+                  <DefaultValue MethodInstanceName="ProductFinderInstance" Type="System.Int32">0</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In" Name="@MaxProductID">
+              <TypeDescriptor TypeName="System.Int32" IdentifierName="ProductID" AssociatedFilter="ID" Name="MaxProductID">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="ProductFinderInstance" Type="System.Int32">99999999</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In" Name="@Name">
+              <TypeDescriptor TypeName="System.String" AssociatedFilter="Name" Name="Name">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="ProductFinderInstance" Type="System.String">%</DefaultValue>
+                  <DefaultValue MethodInstanceName="ProductSpecificFinderInstance" Type="System.String">%</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In" Name="@ProductNumber">
+              <TypeDescriptor TypeName="System.String" AssociatedFilter="ProductNumber" Name="ProductNumber">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="ProductFinderInstance" Type="System.String">%</DefaultValue>
+                  <DefaultValue MethodInstanceName="ProductSpecificFinderInstance" Type="System.String">%</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="Return" Name="Products">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="ProductDataReader">
+                <!-- Typenames that are interfaces are permissible on 
+               return parameters but not input, output or ref type 
+               parameters. This is because the latter need to be 
+               instantiated, requiring concrete types. -->
+                <!-- For database systems, the root TypeDescriptor of the 
+              return parameter always has the IsCollection flag set. 
+             This is because all output from a database is a record 
+             stream regardless of the semantic context that is whether 
+             a single record (SpecificFinder/ViewAccessor) or multiple 
+             records (Finder) are expected. . -->
+                <TypeDescriptors>
+                  <!-- Database systems are modeled as a stream of records.
+             Hence the root TypeDescriptor is a stream and the next 
+             level TypeDescriptor is a record. Even though a record is 
+              a collection of columns, the IsCollection is not set 
+              because we want the Business Data Catalog to treat it as 
+              a structure of strongly typed fields.  -->
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="ProductDataRecord">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierName="ProductID" Name="ProductID">
+                        <!-- The TypeDescriptors in the return parameter 
+                represent the Fields of the IEntityInstance constructed 
+                by the Business Data Catalog and returned to the user 
+                for display/manipulation. The IEntityInstance provides 
+                an abstract access mechanism for fields and and the 
+               identifier values of the instance. Since the identifier 
+                values are promoted within the IEntityInstance for 
+               direct access, we need to identify which TypeDescriptor  
+                actually provides these values. We do this by tagging 
+                the output/return Parameter's TypeDescriptor with the 
+                IdentifierName attribute. -->
+                        <!-- Do not use the IdentifierEntityName 
+                        attribute in return parameters. -->
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">ID</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.String" Name="Name" >
+                        <!-- Do not use the AssociatedFilter 
+                        attribute in return parameters.-->
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">Name</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                          <!-- DisplayByDefault is optional and even 
+                          if it's not specified, you will still be 
+                          able to choose the column from the Web 
+                          Parts and List.-->
+                        </Properties>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.String" Name="ProductNumber">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">Product Number</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                        </Properties>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.Decimal" Name="ListPrice">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">List Price</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                      </TypeDescriptor>
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+          <MethodInstances>
+            <!-- MethodInstance objects can optionally take a 
+            TypeDescriptor along with the return parameter name. 
+            For details, see the SampleWebServiceMetadata.-->
+            <MethodInstance Name="ProductFinderInstance" Type="Finder" ReturnParameterName="Products" />
+            <MethodInstance Name="ProductSpecificFinderInstance" Type="SpecificFinder" ReturnParameterName="Products" />
+          </MethodInstances>
+        </Method>
+        <Method Name="ProductIDEnumerator">
+          <!-- Method for enabling business data search. The method 
+          returns a list of IDs. Business Data Catalog will use the 
+          SpecificFinder method on each of these IDs when indexing 
+          the prodocuts.-->
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">SELECT ProductID FROM Product WHERE ProductID &gt; 1200 AND ProductID &lt; 1300</Property>
+            <Property Name="RdbCommandType" Type="System.String">Text</Property>
+          </Properties>
+          <Parameters>
+            <Parameter Name="ProductIDs" Direction="Return">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="Products">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Product">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierName="ProductID" Name="ProductID">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">ID</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                      </TypeDescriptor>
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+          <MethodInstances>
+            <MethodInstance Name="ProductIDEnumeratorInstance"  Type="IdEnumerator" ReturnParameterName="ProductIDs" />
+          </MethodInstances>
+        </Method>
+      </Methods>
+      <!-- Enter your Action XML here -->
+      <Actions>
+        <Action Name="Search on MSN" Position="1" IsOpenedInNewWindow="true" 
+                Url="http://search.msn.com/results.aspx?q={0}" ImageUrl="">
+          <ActionParameters>
+            <ActionParameter Name="Name" Index="0" />
+          </ActionParameters>
+        </Action>
+      </Actions>
+    </Entity>
+    <Entity EstimatedInstanceCount="10000" Name="SalesOrder">
+      <LocalizedDisplayNames>
+        <LocalizedDisplayName LCID="1033">Sales Order</LocalizedDisplayName>
+      </LocalizedDisplayNames>
+      <Identifiers>
+        <Identifier Name="SalesOrderID" TypeName="System.Int32" />
+      </Identifiers>
+      <Methods>
+        <Method Name="GetSalesOrders">
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">
+              SELECT SalesOrderID, OrderDate, SubTotal, IndividualID
+              FROM SalesOrderHeader, Individual WHERE (SalesOrderID &gt;= @MinSalesOrderID)
+              AND (SalesOrderID &lt;= @MaxSalesOrderID) AND (SalesOrderNumber LIKE @SalesOrderNumber)
+              AND SalesOrderHeader.CustomerID = Individual.CustomerID
+            </Property>
+            <Property Name="RdbCommandType" Type="System.String">Text</Property>
+          </Properties>
+          <FilterDescriptors>
+            <FilterDescriptor Type="Comparison" Name="ID" >
+              <Properties>
+                <Property Name="Comparator" Type="System.String">Equals</Property>
+              </Properties>
+            </FilterDescriptor>
+            <FilterDescriptor Type="Wildcard" Name="SalesOrderNumber" />
+          </FilterDescriptors>
+          <Parameters>
+            <Parameter Direction="In"  Name="@MinSalesOrderID">
+              <TypeDescriptor TypeName="System.Int32" IdentifierName="SalesOrderID" 
+                              AssociatedFilter="ID" Name="MinSalesOrderID">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="SalesOrderFinderInstance" Type="System.Int32">0</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In"  Name="@MaxSalesOrderID">
+              <TypeDescriptor TypeName="System.Int32" IdentifierName="SalesOrderID" AssociatedFilter="ID" Name="MaxSalesOrderID">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="SalesOrderFinderInstance" Type="System.Int32">99999999</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In"  Name="@SalesOrderNumber">
+              <TypeDescriptor TypeName="System.String" AssociatedFilter="SalesOrderNumber" Name="SalesOrderNumber">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="SalesOrderFinderInstance" Type="System.String">%</DefaultValue>
+                  <DefaultValue MethodInstanceName="SalesOrderSpecificFinderInstance" Type="System.String">%</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="Return"  Name="SalesOrders">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="SalesOrderDataReader">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="SalesOrderDataRecord">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierName="SalesOrderID" Name="SalesOrderID">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">ID</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.DateTime" Name="OrderDate">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">Order Date</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                        </Properties>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.Int32" Name="IndividualID">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">IndividualID</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                        </Properties>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.Decimal" Name="SubTotal">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">SubTotal</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                        </Properties>
+                      </TypeDescriptor>
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+          <MethodInstances>
+            <MethodInstance Name="SalesOrderFinderInstance" Type="Finder" ReturnParameterName="SalesOrders" />
+            <MethodInstance Name="SalesOrderSpecificFinderInstance" Type="SpecificFinder" ReturnParameterName="SalesOrders" />
+          </MethodInstances>
+        </Method>
+      </Methods>
+    </Entity>
+    <Entity EstimatedInstanceCount="10000" Name="Customer">
+      <Properties>
+        <Property Name="Title" Type="System.String">FirstName</Property>
+      </Properties>
+      <Identifiers>
+        <Identifier Name="IndividualID" TypeName="System.Int32" />
+      </Identifiers>
+      <Methods>
+        <Method Name="GetCustomers">
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">SELECT * FROM Individual WHERE (IndividualID &gt;= @MinIndividualID) AND (IndividualID &lt;= @MaxIndividualID) AND ((FirstName+' '+LastName) LIKE @Name)</Property>
+            <Property Name="RdbCommandType" Type="System.String">Text</Property>
+          </Properties>
+          <FilterDescriptors>
+            <FilterDescriptor Type="Comparison" Name="ID" >
+              <Properties>
+                <Property Name="Comparator" Type="System.String">Equals</Property>
+              </Properties>
+            </FilterDescriptor>
+            <FilterDescriptor Type="Wildcard" Name="Name" />
+          </FilterDescriptors>
+          <Parameters>
+            <Parameter Direction="In"  Name="@MinIndividualID">
+              <TypeDescriptor TypeName="System.Int32" IdentifierName="IndividualID" AssociatedFilter="ID" Name="MinIndividualID">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="CustomerFinderInstance" Type="System.Int32">0</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In"  Name="@MaxIndividualID">
+              <TypeDescriptor TypeName="System.Int32" IdentifierName="IndividualID" AssociatedFilter="ID" Name="MaxIndividualID">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="CustomerFinderInstance" Type="System.Int32">99999999</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In"  Name="@Name">
+              <TypeDescriptor TypeName="System.String" AssociatedFilter="Name" Name="Name">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="CustomerFinderInstance" Type="System.String">%</DefaultValue>
+                  <DefaultValue MethodInstanceName="CustomerSpecificFinderInstance" Type="System.String">%</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="Return"  Name="Customers">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="CustomerDataReader">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="CustomerDataRecord">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierName="IndividualID" Name="IndividualID">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">ID</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.String" Name="FirstName">
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                        </Properties>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.String" Name="LastName">
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                        </Properties>
+                      </TypeDescriptor>
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+          <MethodInstances>
+            <MethodInstance Name="CustomerFinderInstance" Type="Finder" ReturnParameterName="Customers" />
+            <MethodInstance Name="CustomerSpecificFinderInstance" Type="SpecificFinder" ReturnParameterName="Customers" />
+          </MethodInstances>
+        </Method>
+        <Method Name="GetSalesOrdersForCustomer">
+          <!-- This is the MethodInstance that contains the association 
+         logic.   The association logic (MethodInstance) can be on any 
+        entity, either source or destination or an unrelated entity.-->
+          <!-- The order in which you define the source and destination 
+          entities is very important because the XML file is processed 
+          from top to bottom. Therefore, ensure that the entities 
+          referenced in the association method are defined before the 
+          entity containing the association method. -->
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">SELECT SalesOrderID, OrderDate, SubTotal,Individual.IndividualID FROM SalesOrderHeader,Individual WHERE SalesOrderHeader.CustomerID=Individual.CustomerID and Individual.IndividualID=@IndividualID</Property>
+            <Property Name="RdbCommandType" Type="System.String">Text</Property>
+          </Properties>
+          <Parameters>
+            <!-- An Association MethodInstance contains slots in 
+                the input for the identifier values of the source 
+                 entity instance, and a slot in the output for the 
+                 identifier values of the destination entity instances. 
+                 Therefore, you must tag enough input type descriptors 
+                 tagged with identifiers corresponding to each 
+                 identifier of each entity that is a source in the 
+                 association in the association method.-->
+            <!-- The IdentifierName attribute on an input 
+                TypeDescriptor signals the Business Data Catalog to 
+                insert the identifier value of the entity instance of 
+                relevance before executing the method. For example, in 
+                an Association MethodInstance, the 
+                user has probably provided the identifier values for 
+                all the source entity instances entity instance they 
+                want retrieved. The Business Data Catalog will insert 
+                that value into this slot after fully instantiating 
+                this parameter using all the default values. -->
+            <Parameter Direction="In"  Name="@IndividualID">
+              <TypeDescriptor TypeName="System.Int32" IdentifierName="IndividualID" Name="IndividualID" />
+            </Parameter>
+            <Parameter Direction="Return"  Name="SalesOrders">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="SalesOrderDataReader">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="SalesOrderDataRecord">
+                    <TypeDescriptors>
+                      <!-- An Association MethodInstance contains a slot in 
+               the output for the identifier values of the destination 
+               entity instances.Therefore, you should tag enough type 
+               descriptors with identifiers corresponding to each 
+               identifier of the destination entity in the 
+               association. -->
+                      <TypeDescriptor TypeName="System.Int32" IdentifierEntityName="SalesOrder" IdentifierName="SalesOrderID" Name="SalesOrderID">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">ID</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.DateTime" Name="OrderDate">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">Order Date</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                        </Properties>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.Int32" Name="IndividualID">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">IndividualID</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                        </Properties>
+                      </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.Decimal" Name="SubTotal">
+                        <LocalizedDisplayNames>
+                          <LocalizedDisplayName LCID="1033">SubTotal</LocalizedDisplayName>
+                        </LocalizedDisplayNames>
+                        <Properties>
+                          <Property Name="DisplayByDefault" Type="System.Boolean">true</Property>
+                        </Properties>
+                      </TypeDescriptor>
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+        </Method>
+      </Methods>
+      <Actions>
+        <Action Name="Send Email" Position="1" IsOpenedInNewWindow="true" Url="mailto:{0}.msn.com" ImageUrl="">
+          <ActionParameters>
+            <ActionParameter Name="FirstName" Index="0" />
+          </ActionParameters>
+        </Action>
+      </Actions>
+    </Entity>
+  </Entities>
+  <Associations>
+    <Association AssociationMethodEntityName="Customer" AssociationMethodName="GetSalesOrdersForCustomer" AssociationMethodReturnParameterName="SalesOrders" Name="CustomerToSalesOrder" IsCached="true">
+      <!-- Associations are just subclasses of MethodInstances. 
+      They can also take ReturnTypeDescriptorName optionally to
+      point to a TypeDescriptor nested deep in the return structure.
+      For a sample, see SampleWebService Metadata in the SDK.-->
+      <SourceEntity Name="Customer" />
+      <DestinationEntity Name="SalesOrder" />
+      <!-- The source and destination entities can be the same. 
+      For a sample, see the SampleWebService Metadata sample.-->
+    </Association>
+  </Associations>
+</LobSystem>

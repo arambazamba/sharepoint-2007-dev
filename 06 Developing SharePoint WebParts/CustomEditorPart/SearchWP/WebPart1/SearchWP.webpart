@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <!--
+      The following Guid is used as a reference to the web part class, 
+      and it will be automatically replaced with actual type name at deployment time.
+      -->
+      <type name="c43904f3-08b0-4f8f-bd55-3f6b4462005a" />
+      <importErrorMessage>Cannot import WebPart1 Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+		<property name="Group" type="string">Integrations</property>
+        <property name="Title" type="string">Search Web Part</property>
+        <property name="Description" type="string">A Web Part implementing a custom EditorPart</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

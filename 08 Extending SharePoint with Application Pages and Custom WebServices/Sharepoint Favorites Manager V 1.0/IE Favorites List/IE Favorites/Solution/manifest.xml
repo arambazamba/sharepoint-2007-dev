@@ -1,0 +1,6 @@
+﻿<Solution SolutionId="cb86a0ac-1df3-4f77-9c9f-589d8a7359b7" xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <FeatureManifests>
+	<FeatureManifest Location="IEFavoriteTypes\feature.xml" />
+    <FeatureManifest Location="IEFavoritesList\feature.xml" />
+  </FeatureManifests>
+</Solution>

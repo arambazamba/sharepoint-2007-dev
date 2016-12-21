@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature
+  Id="2A675BA2-3835-4d4e-962B-E19B25CD6E24"
+  Title="Mail Notification"
+  Description="An Event Handler that notifies Groups based on the settings of the hidden Notify-List"
+  Version="1.0.0.0"
+  Scope="Web"
+  Hidden="false"
+  ImageUrl="MailNotification\components.png"
+  <ElementManifests>
+    <ElementManifest
+      Location="elements.xml" />
+  </ElementManifests>
+</Feature>

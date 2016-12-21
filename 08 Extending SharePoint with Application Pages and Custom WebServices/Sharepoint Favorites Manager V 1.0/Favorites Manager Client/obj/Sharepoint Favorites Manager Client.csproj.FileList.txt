@@ -1,0 +1,12 @@
+obj\Debug\FavoritesManager.exe
+obj\Debug\FavoritesManager.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Integrations.Winforms.wfFavorites.resources
+obj\Debug\Integrations.Properties.Resources.resources
+obj\Debug\Sharepoint Favorites Manager Client.csproj.GenerateResource.Cache
+bin\Debug\FavoritesManager.exe
+bin\Debug\FavoritesManager.pdb
+bin\Debug\FavoritesManager.Core.dll
+bin\Debug\Microsoft.SharePoint.Search.dll
+bin\Debug\Microsoft.SharePoint.Search.xml
+bin\Debug\FavoritesManager.Core.pdb

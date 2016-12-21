@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SharePointDevelopment/!svn/ver/8/Custom%20Authentication/Membership/Membership/App_Data
+END
+ASPNETDB.MDF.exclude
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/SharePointDevelopment/!svn/ver/8/Custom%20Authentication/Membership/Membership/App_Data/ASPNETDB.MDF.exclude
+END
+aspnetdb_log.ldf.exclude
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/SharePointDevelopment/!svn/ver/8/Custom%20Authentication/Membership/Membership/App_Data/aspnetdb_log.ldf.exclude
+END

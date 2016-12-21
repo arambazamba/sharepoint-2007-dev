@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="5a07c92d-4bfd-4d37-a166-5972f31b3150" Timestamp="633300553580000000" XmlDocIndexTimestamp="633265035640000000" />
+  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="325f6409-d3ee-48d9-9b86-2222c3b20aae" Timestamp="633300553580000000" XmlDocIndexTimestamp="633258133180000000" />
+  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="093fc5c7-7234-4276-98b0-01c1e2a24a1f" Timestamp="633300553580000000" XmlDocIndexTimestamp="633265035640000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.933.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="cd81ba25-9268-446c-94e2-c026c889eab4" Timestamp="633559706920000000" XmlDocIndexTimestamp="633559706920000000" />
+  <Assembly Name="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" Image="4cd03667-41fe-4c70-8824-f72a4aaff431" Timestamp="633306904940000000" XmlDocIndexTimestamp="633547848880000000" />
+</Assemblies>

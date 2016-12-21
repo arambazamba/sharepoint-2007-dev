@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="CustomMasterPages" Url="_catalogs/masterpage" Path="MasterPages" RootWebOnly="TRUE">	
+	<!--the MasterPage file that you have to put in the CustomMasterPage/MasterPages folder--> 	
+		<File Url="reverse_green.master" Type="GhostableInLibrary">
+			<Property Name="ContentType" Value="Reverse Master" />			
+	 <!--MasterPage Description--> 	
+			<Property Name="MasterPageDescription" Value="Reverse Sample Master" />
+		</File>
+	</Module>
+	<!-- The place where we can add the registry info of the images used in the MasterPage-->
+	
+	<Module Name="Images" Url="Style Library/Images" Path="Images" RootWebOnly="TRUE">		
+	 <!--All images that you added previously in the CustomMasterPage\images folder, each will have its own entry as shown below, with the same syntax except the Url, and name. Please take care that they are case sensitive-->
+	
+		<File Url="lay3_green_companylogo.gif" Name="lay3_green_companylogo.gif" Type="GhostableInLibrary"/>
+		<File Url="questionMark.gif" Name="questionMark.gif" Type="GhostableInLibrary"/>
+		<File Url="stock_photo.gif" Name="stock_photo.gif" Type="GhostableInLibrary"/>
+
+	</Module>
+	<!-- Styles, the name of the css file located in the CustomMasterPage\styles folder-->
+	<Module Name="Styles" Url="Style Library" Path="Styles" RootWebOnly="TRUE">
+		<File Url="color_layout3_green.css" Type="GhostableInLibrary" />
+		<File Url="template_layout3.css" Type="GhostableInLibrary" />
+		<File Url="HideNav.css" Type="GhostableInLibrary" />
+
+	</Module>
+</Elements>

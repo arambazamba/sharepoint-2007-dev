@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature Id="934A0D6A-BC62-43b2-8A0B-BF26816F7C30"
+  Title="Custom Site Settings"
+  Description="This feature will create a custom site settings group and a set of links"
+  Version="1.0.0.0"
+  Scope="Web" 
+  Hidden="FALSE"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="Elements.xml" />
+  </ElementManifests>
+</Feature>

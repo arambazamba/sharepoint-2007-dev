@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature Id="BFF33234-0787-48bf-B945-36E7394E34AA"
+  Title="Custom Site Actions"
+  Description="This feature will create custom Site Actions links"
+  Version="1.0.0.0"
+  Scope="Web" 
+  Hidden="FALSE"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="Elements.xml" />
+  </ElementManifests>
+</Feature>

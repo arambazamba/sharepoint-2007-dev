@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Sample.master.cs" Inherits="BookLib" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table width="100%">
+            <tr>
+                <td bgcolor="#99ccff">
+                <asp:Image runat="server" ID="MainLogo" ImageUrl="~/LibraryLogo.JPG" Height="61px" />
+                </td>
+                <td bgcolor="#99ccff">
+                <h1 style="text-align: center">Welcome to ISV Summer Library</h1>
+                </td>
+                <td bgcolor="#99ccff">
+                    <asp:LoginStatus ID="MainLoginStatus" runat="server" />
+                    <br />
+                    <asp:ContentPlaceHolder ID="MenuPlaceHolder" runat="server" />
+                </td>
+            </tr>
+            <tr valign="top">
+                <td width="20%">
+                <asp:ContentPlaceHolder ID="LeftContent" runat="server" />
+                </td>
+                <td width="60%">
+                <asp:ContentPlaceHolder ID="DetailsContent" runat="server" />
+                </td>
+                <td width="20%">
+                <asp:ContentPlaceHolder ID="RightContent" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

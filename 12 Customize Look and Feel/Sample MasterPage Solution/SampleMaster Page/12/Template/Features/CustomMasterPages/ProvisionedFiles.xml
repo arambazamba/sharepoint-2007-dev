@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- _lcid="1033" _version="12.0.4407" _dal="1" -->
+<!-- _LocalBinding -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!--<Module Name="OSGMasterPages" Url="_catalogs/masterpage" Path="MasterPages" RootWebOnly="TRUE">
+		-->
+	<!--the MasterPage file that you have to put in the CustomMasterPage/MasterPages folder -->
+	<!--
+		<File Url="MasterPage.master" Type="GhostableInLibrary">
+			<Property Name="ContentType" Value="My Sample Master Page" />
+			-->
+	<!-- a preview image for the MasterPage file. Put the image in the CustomMasterPage/en-us folder -->
+	<!--
+			<Property Name="PublishingPreviewImage" Value="~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/BlackVertical.png, ~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/BlackVertical.png" />
+			-->
+	<!-- MasterPage Description -->
+	<!--
+			<Property Name="MasterPageDescription" Value="This is my sample master page for use with collaboration or publishing sites." />
+		</File>
+	</Module>
+	-->
+	<!-- a preview image for the MasterPage file. Put the image in the CustomMasterPage/en-us folder -->
+	<!--
+	<Module Name="PublishingLayoutsPreviewImages" Url="_catalogs/masterpage" IncludeFolders="??-??" Path="" RootWebOnly="TRUE">
+		<File Url="BlackVertical.png" Name="Preview Images/BlackVertical.png" Type="GhostableInLibrary">
+		</File>
+	</Module>
+	-->
+	<!-- The place where we can add the registry info of the images used in the MasterPage-->
+	<!--
+	<Module Name="Images" Url="Style Library/Images" Path="Images" RootWebOnly="TRUE">
+		-->
+	<!-- All images that you added previously in the CustomMasterPage\images folder, each will have its own entry as shown below, with the same syntax except the Url, and name. Please take care that they are case sensitive-->
+	<!--
+		<File Url="1_Duane.jpg" Name="1_Duane.jpg" Type="GhostableInLibrary"/>
+	</Module>-->
+	<!-- Styles, the name of the css file located in the CustomMasterPage\styles folder-->
+	<Module Name="HideLeft" Url="Style Library" Path="Styles" RootWebOnly="TRUE">
+		<File Url="HideNav.css" Type="GhostableInLibrary" />
+	</Module>
+</Elements>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature Id="fd985187-26a6-453b-842c-9fe2ccd612c5" Title="AjaxPart" Scope="Site" Version="1.0.0.0" Hidden="FALSE" DefaultResourceFile="core" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="AjaxPart\WebPart1.xml" />
+    <ElementFile Location="AjaxPart\AjaxPart.webpart" />
+  </ElementManifests>
+</Feature>

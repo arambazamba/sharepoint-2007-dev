@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebPart xmlns="http://schemas.microsoft.com/WebPart/v2">
+	<Assembly>ReturnOfSmartPart, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9f4da00116c38ec5</Assembly>
+	<TypeName>SmartPart.SmartPart</TypeName>
+	<Title>SmartPart</Title>
+<Description>A web part that can host any ASP.NET Web User Control (ascx).</Description></WebPart>

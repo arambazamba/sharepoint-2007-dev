@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/SharePointDevelopment/!svn/ver/38/07%20SharePoint%20Platform%20Services/KB%20Classification%20-%20Advanced%20Custom%20Type/DeploymentFiles/ProductionDeployment
+END
+updatewsp.bat
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/SharePointDevelopment/!svn/ver/38/07%20SharePoint%20Platform%20Services/KB%20Classification%20-%20Advanced%20Custom%20Type/DeploymentFiles/ProductionDeployment/updatewsp.bat
+END
+installwsp.bat
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/SharePointDevelopment/!svn/ver/38/07%20SharePoint%20Platform%20Services/KB%20Classification%20-%20Advanced%20Custom%20Type/DeploymentFiles/ProductionDeployment/installwsp.bat
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/SharePointDevelopment/!svn/ver/38/07%20SharePoint%20Platform%20Services/KB%20Classification%20-%20Advanced%20Custom%20Type/DeploymentFiles/ProductionDeployment/manifest.xml
+END
+package.ddf
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/SharePointDevelopment/!svn/ver/38/07%20SharePoint%20Platform%20Services/KB%20Classification%20-%20Advanced%20Custom%20Type/DeploymentFiles/ProductionDeployment/package.ddf
+END
+uninstallwsp.bat
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/SharePointDevelopment/!svn/ver/38/07%20SharePoint%20Platform%20Services/KB%20Classification%20-%20Advanced%20Custom%20Type/DeploymentFiles/ProductionDeployment/uninstallwsp.bat
+END

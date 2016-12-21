@@ -1,0 +1,16 @@
+﻿.Set CabinetNameTemplate=FavoritesWebService.wsp     
+.set DiskDirectoryTemplate=CDROM ; 
+.Set CompressionType=MSZIP;
+.Set UniqueFiles="ON"
+.Set Cabinet=on
+.Set DiskDirectory1=Package
+
+manifest.xml 
+
+..\bin\Debug\FavoritesWebService.dll
+
+FEATURES\FavoritesWS\Favorites.asmx ISAPI\Favorites.asmx 
+FEATURES\FavoritesWS\Favoritesdisco.aspx ISAPI\Favoritesdisco.aspx
+FEATURES\FavoritesWS\Favoriteswsdl.aspx ISAPI\Favoriteswsdl.aspx
+
+

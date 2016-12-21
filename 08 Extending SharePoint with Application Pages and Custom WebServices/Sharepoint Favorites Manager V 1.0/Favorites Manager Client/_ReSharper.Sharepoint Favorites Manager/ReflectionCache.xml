@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="805306377">
+  <Assembly Name="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" Image="8c7606ee-1499-408a-9dc0-12de0bcff0ae" Timestamp="633306904940000000" XmlDocIndexTimestamp="632956415620000000" />
+  <Assembly Name="Microsoft.SharePoint.Search, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" Image="3ef2dc35-cb1e-4d24-92b7-5626cf8281df" Timestamp="633235244960000000" XmlDocIndexTimestamp="632935630320000000" />
+  <Assembly Name="Microsoft.SharePoint.Security, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" Image="c761967f-0f71-4a38-8242-1ffc37d8903a" Timestamp="632986076060000000" XmlDocIndexTimestamp="632920713880000000" />
+  <Assembly Name="System.IdentityModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="e133ef53-b2ec-4f2a-b554-6bb38842a420" Timestamp="633276897140000000" />
+  <Assembly Name="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="1ed68b73-0459-45d8-88ca-67feab7eca01" Timestamp="633276897120000000" />
+  <Assembly Name="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="59a96f65-0f3c-4c0a-b8ab-1eb3762c1d8b" Timestamp="633276897120000000" />
+  <Assembly Name="System.ServiceModel.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="4598a315-9abd-4e41-9ae8-3bf3841c9720" Timestamp="633283659660000000" XmlDocIndexTimestamp="633258997260000000" />
+  <Assembly Name="System.Workflow.Activities, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="f9f8d33f-fb27-4da6-8a86-af70cd83bd4b" Timestamp="633272372100000000" />
+  <Assembly Name="System.Workflow.ComponentModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="4f320a4c-c9b4-4d14-920e-39a3fce1d0d2" Timestamp="633272372120000000" />
+  <Assembly Name="System.Workflow.Runtime, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="0b73d849-0036-41a3-9087-8955773efce3" Timestamp="633272372100000000" />
+  <Assembly Name="System.WorkflowServices, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="f63887ca-53ce-43f2-b73a-9738a08c770a" Timestamp="633283659680000000" XmlDocIndexTimestamp="633259855780000000" />
+  <Assembly Name="Interop.IWshRuntimeLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8e375618044c714" Image="ad8355fa-c67b-45dc-b7bf-526ea13aab1f" Timestamp="633469793440805000" />
+</Assemblies>

@@ -1,0 +1,9 @@
+﻿<solution id="6f61da05-e0b6-4ca6-b311-4d825723209c" name="TelephoneBook">
+  <features>
+    <feature id="34715396-cdf6-48a6-85e4-4ffa33ab977a">
+      <featureElements>
+        <featureElement id="5407bbc5-a059-47d7-b862-ed2438067967" name="TelephoneBook" />
+      </featureElements>
+    </feature>
+  </features>
+</solution>

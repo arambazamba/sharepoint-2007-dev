@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2008-10-15T18:25:29" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2008-10-15T18:25:29" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="InitForm">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:Approver" minOccurs="0"/>
+				<xsd:element ref="my:Instructions" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Approver" type="my:requiredString"/>
+	<xsd:element name="Instructions" type="my:requiredString"/>
+	<xsd:simpleType name="requiredString">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredAnyURI">
+		<xsd:restriction base="xsd:anyURI">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredBase64Binary">
+		<xsd:restriction base="xsd:base64Binary">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

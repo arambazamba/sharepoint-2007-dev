@@ -1,0 +1,1 @@
+stsadm -o activatefeature -name copytofeature -url http://chiron

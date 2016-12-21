@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Manifest created STSDEV utility at 9/12/2008 6:44:33 AM-->
+<Solution SolutionId="B98C3ACA-D782-4F1D-A862-8CE88CE3ACFE" ResetWebServer="True" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!--Feature Manifest files-->
+  <FeatureManifests>
+    <FeatureManifest Location="MyCustomTheme\feature.xml" />
+  </FeatureManifests>
+  <!--TEMPLATE files-->
+  <TemplateFiles>
+    <TemplateFile Location="IMAGES\thMyCustomTheme.gif" />
+    <TemplateFile Location="IMAGES\MyCustomTheme\AfricanPith32.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\alldayOver_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\allday_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\ApplyFiltersActive.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\ApplyFiltersHoverOver.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\ApplyFiltersInactive.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\calnumbttnfocus_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\calnumbttntoday_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\calnumbttn_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\cnspgrdn_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\cnsugrdn_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\CreateGraphic_classic.jpg" />
+    <TemplateFile Location="THEMES\MyCustomTheme\filedialogselected_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\formtitlegrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\linksectiongrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\listheadergrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\menubuttonhover_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\mgradlargertl_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\mgradlarge_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\mgradrtl_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\mgrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\mossExtension.css" />
+    <TemplateFile Location="THEMES\MyCustomTheme\MyCustomTheme.INF" />
+    <TemplateFile Location="THEMES\MyCustomTheme\navBullet_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\Navshape_classic.jpg" />
+    <TemplateFile Location="THEMES\MyCustomTheme\pagebackgrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\pageTitleBKGD_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\partgrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\portaltabhover.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\portaltabselected.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\portraitbackground.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\quickLaunchHeader_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\rtebnhov_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\rtebnsel_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\selectednavbullet_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\selectednav_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\settingsbkg_classic.jpg" />
+    <TemplateFile Location="THEMES\MyCustomTheme\SettingsGraphic_classic.jpg" />
+    <TemplateFile Location="THEMES\MyCustomTheme\siteactionsmenugrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\siteactionsmenuhovergrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\siteTitleBKGD_classic.jpg" />
+    <TemplateFile Location="THEMES\MyCustomTheme\templatepickerselected_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\templatepickerunselected_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\theme.css" />
+    <TemplateFile Location="THEMES\MyCustomTheme\toolgrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\topnavhover_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\topnavselected_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\topnavunselected_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\Topshape_classic.jpg" />
+    <TemplateFile Location="THEMES\MyCustomTheme\viewheadergrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\viewselectorgrad_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\weekbox_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\wpqamh_classic.gif" />
+    <TemplateFile Location="THEMES\MyCustomTheme\wpqam_classic.gif" />
+  </TemplateFiles>
+  <!--Assembly files-->
+  <Assemblies>
+    <Assembly Location="MyCustomTheme.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+</Solution>

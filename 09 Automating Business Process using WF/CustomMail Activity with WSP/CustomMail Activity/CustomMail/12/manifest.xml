@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionId="5ECDA69D-1352-4659-AFC8-AAF5602A6374" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <FeatureManifests>
+    <FeatureManifest Location="CustomMailActivity\feature.xml" />
+  </FeatureManifests>
+  <Assemblies>
+    <Assembly Location="CustomMail.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="CustomMail, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2be715295defd739" Namespace="Integrations" TypeName="*" Safe="True" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="1033\Workflow\CustomMail.ACTIONS" />
+    <TemplateFile Location="Images\components.png" />
+  </TemplateFiles>
+</Solution>

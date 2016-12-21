@@ -1,0 +1,15 @@
+﻿.OPTION Explicit
+.Set CabinetNameTemplate=SPRequestJob.wsp
+.Set DiskDirectoryTemplate=CDROM
+.Set CompressionType=MSZIP
+.Set UniqueFiles=Off
+.Set Cabinet=On
+.Set DiskDirectory1=Package
+;**************************************************
+manifest.xml
+..\bin\debug\SPRequestJob.dll
+
+.Set DestinationDir=SPRequestJob
+SPRequestJob\feature.xml
+
+;***End

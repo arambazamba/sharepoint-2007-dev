@@ -1,0 +1,49 @@
+<Configuration>
+  <CompletionStatisticsManager />
+  <EditorManager>
+    <RecentFiles>
+      <File id="F1550674-D44D-4464-B7C7-BC6ED9944169/d:Solution/d:IEFavoritesList/d:IEFavorites/f:DispForm.aspx" caret="0" scrollPosition="0|9" />
+      <File id="F1550674-D44D-4464-B7C7-BC6ED9944169/d:Solution/d:IEFavoritesList/d:IEFavorites/f:EditForm.aspx" caret="0" scrollPosition="0|12" />
+      <File id="F1550674-D44D-4464-B7C7-BC6ED9944169/d:Solution/d:IEFavoritesList/d:IEFavorites/f:AllItems.aspx" caret="0" scrollPosition="0|0" />
+      <File id="F1550674-D44D-4464-B7C7-BC6ED9944169/d:Solution/f:manifest.xml" caret="0" scrollPosition="0|0" />
+      <File id="F1550674-D44D-4464-B7C7-BC6ED9944169/d:Solution/d:IEFavoritesList/d:ListTemplates/f:elementManifest.xml" caret="0" scrollPosition="0|0" />
+      <File id="F1550674-D44D-4464-B7C7-BC6ED9944169/d:Solution/d:IEFavoritesList/f:feature.xml" caret="0" scrollPosition="0|0" />
+      <File id="F1550674-D44D-4464-B7C7-BC6ED9944169/d:Solution/d:IEFavoritesList/d:IEFavorites/f:schema.xml" caret="0" scrollPosition="0|0" />
+      <File id="F1550674-D44D-4464-B7C7-BC6ED9944169/d:Solution/d:IEFavoriteTypes/f:Feature.xml" caret="0" scrollPosition="0|0" />
+      <File id="F1550674-D44D-4464-B7C7-BC6ED9944169/d:Solution/d:IEFavoriteTypes/f:definitions.xml" caret="0" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

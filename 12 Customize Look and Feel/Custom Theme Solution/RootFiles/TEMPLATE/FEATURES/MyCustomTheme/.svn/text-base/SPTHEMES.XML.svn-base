@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SPThemes xmlns="http://tempuri.org/SPThemes.xsd">
+  <Templates>
+    <TemplateID>MyCustomTheme</TemplateID>
+    <DisplayName>My Custom Theme</DisplayName>
+    <Description>This is my custom theme.</Description>
+    <Thumbnail>images/thMyCustomTheme.gif</Thumbnail>
+    <Preview>images/thMyCustomTheme.gif</Preview>
+  </Templates>
+</SPThemes>

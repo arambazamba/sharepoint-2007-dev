@@ -1,0 +1,15 @@
+	  <Action Name="Custom Email Action" ClassName="Integrations.CustomEmailActivity" Assembly="CustomMail, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2be715295defd739" AppliesTo="all" Category="Sample">
+		  <RuleDesigner Sentence="Send %1 from %2 via SMTP host %3.">
+			  <FieldBind Field="To,CC,Subject,Body" Text="this message" DesignerType="Email" Id="1"/>
+			  <FieldBind Field="FromEmailAddress" Text="this address" Id="2" DesignerType="TextArea"/>
+			  <FieldBind Field="SMTPServerName" Text="SMTP Server" Id="3" DesignerType="TextArea"/>
+		  </RuleDesigner>
+		  <Parameters>
+			  <Parameter Name="To" Type="System.Collections.ArrayList, mscorlib" Direction="In" />
+			  <Parameter Name="CC" Type="System.Collections.ArrayList, mscorlib" Direction="Optional" />
+			  <Parameter Name="Subject" Type="System.String, mscorlib" Direction="In" />
+			  <Parameter Name="Body" Type="System.String, mscorlib" Direction="Optional" />
+			  <Parameter Name="FromEmailAddress" Type="System.String, mscorlib" Direction="In" />
+			  <Parameter Name="SMTPServerName" Type="System.String, mscorlib" Direction="In" InitialValue="127.0.0.1" />
+		  </Parameters>
+	  </Action>

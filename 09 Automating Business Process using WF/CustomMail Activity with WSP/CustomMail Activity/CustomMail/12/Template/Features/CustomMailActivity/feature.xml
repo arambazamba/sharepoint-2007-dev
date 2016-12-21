@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="77edeaba-6d47-11dc-8314-0800200c9a66"
+          Title="Custom Mail Activity"
+          Description="A custom Mail Activity for SPD"
+          Version="0.5.0.0"
+          Creator="Integrations"
+          ActivateOnDefault="True"
+          Scope="WebApplication"
+          ImageUrl="components.png"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Properties>
+    <Property Key="GloballyAvailable" Value="true" />
+  </Properties>
+</Feature>
+

@@ -1,0 +1,12 @@
+﻿div.ms-quicklaunch table.ms-recyclebin 
+{
+display: none;
+}
+
+#ctl00_PlaceHolderLeftNavBar_idNavLinkViewAll {
+       Visibility:hidden;
+}
+
+.ms-navframe {
+ display:none;
+}

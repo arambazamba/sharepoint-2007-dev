@@ -1,0 +1,621 @@
+﻿/* universal selector to clear all margins and padding */
+	* { margin:0; padding:0; border:none; } 
+
+body {
+font-family:Trebuchet MS, Arial, serif;
+font-size:68%;
+margin:10px 10px;
+}
+
+
+#aspnetform {
+margin:10px;
+padding:0 5px;
+height:100%;
+}
+
+
+h2 {
+margin-top:0;
+font-size:1.2em;
+}
+
+
+/* Header Styles */
+
+
+/* Top Header Login Information */
+
+#header {
+width:100%; 
+}
+
+.ms-bannerContainer {
+background-image:none;
+padding:0px;
+padding-top:5px;
+margin-right:173px;
+}
+
+.ms-globalbreadcrumb {
+display:block;
+float:left;
+}
+
+.ms-globalleft {
+text-align:left;
+float:left;
+}
+
+.ms-globalright{
+float:right;
+}
+
+.ms-globallinks {
+text-align:right;
+float:left;
+}
+
+.ms-globallinks-left {
+text-align:right;
+float:left;
+}
+
+.ms-globallinks-right span {  /* this span is for the pipe before the question mark */
+float:left;
+}
+
+.ms-globallinks-right {
+float:right;
+}
+
+.ms-globallinks-right a:link, .ms-globallinks-right a:visited {
+float:left;
+}
+
+.ms-globallinks-right a:link, .ms-globallinks-right a:visited, .ms-globallinks-right a:link img, #actions a:visited img {
+float:left;
+padding:0 5px;
+margin:0;
+}
+
+#feedback { 
+float:left;
+display:block;
+}
+
+.ms-globallinks img {
+float:right;
+margin:0px;
+padding:0px;
+}
+
+.ms-SPLink {
+float:left;
+padding:0 10px;
+}
+
+
+
+/* Title Area */
+
+.ms-globalTitleArea {
+position:relative;
+background-image:none; /* turns default gradient off */
+height:105px; /* matches height of area image */
+clear:left;
+padding:0px;
+margin:0px;
+}
+
+
+#GlobalTitleAreaImage {
+float:right;
+background:#fff url('../images/stock_photo.gif') no-repeat right top;
+height:107px;
+padding-left:176px; /* this reveals bg image plus extra padding to reveal bg color */
+margin-left:20px;
+padding-bottom:3px;
+}
+
+#GlobalTitleAreaImage img {
+display:none;
+}
+
+#company-logo {
+height:17px;
+width:128px;
+float:right;
+margin-top:16px;
+}
+
+.ms-sitetitle {
+font-size:1.1em;
+margin-top:32px;
+text-align:right;
+}
+
+.ms-searchform {
+position:static;
+}
+
+#SearchArea {
+display:block;
+position:relative;
+float:left;
+clear:left;
+width:auto;
+top:-46px;
+}
+
+#SearchArea table {
+float:left;
+}
+
+/* Search Styling */
+
+.ms-searchimage {
+padding-left:5px;
+border:none;
+}
+
+a#onetIDGoSearch {
+padding:0px;
+border:none;
+}
+
+a#onetIDGoSearch img {
+}
+
+a:hover#onetIDGoSearch img {
+padding:0px;
+}
+
+.ms-searchbox {
+height:15px;
+padding:0;
+margin:0;
+}
+
+
+/* Primary Navigation */
+
+/*
+.ms-bannerframe {
+float:left;
+display:block;
+}
+
+.ms-bannerContainer {
+float:left;
+display:inline;
+clear:both;
+}
+*/
+
+.ms-siteactionsmenu div div div a{
+font-weight:bold;
+padding-right:8px;
+}
+
+.ms-siteactionsmenu div div div{
+border:none;
+}
+
+.ms-siteactionsmenu div div div.ms-siteactionsmenuhover{
+border:none;
+}
+
+.ms-siteactionsmenu {
+position:relative;
+float:right;
+margin-right:12px;
+padding-top:10px;
+top:-16px;
+}
+
+.ms-siteactionsmenu img {
+display:none;
+}
+.ms-banner {
+display:block;
+float:left;
+}
+
+.ms-topNavContainer {  /* clears default 1px right border on nav container */
+border-right:0; 
+float:left;
+}
+
+.ms-topnav {
+font-size:.8em;
+text-transform:lowercase;
+background-image:none;
+border:0;
+}
+
+.ms-topnav a:link, .ms-topnav a:visited, .ms-topnav a:hover {
+padding-bottom:4px;
+margin:5px 3px 2px 3px;
+}
+
+/* ms-main area */
+
+.ms-main {
+clear:both;
+background-image:none;
+height:0px;
+position:relative;
+padding-left:10px;
+}
+
+
+.ms-titlearea {
+padding:5px 0 0 0;
+}
+
+TD.ms-titleareaframe,Div.ms-titleareaframe,.ms-pagetitleareaframe,.ms-mwspagetitleareaframe,.ms-consoletitleareaframe{
+display:none;
+}
+
+#onetidPageTitleAreaTable {
+	padding-bottom:4px;
+}
+
+#TitleAreaFrameClass {
+background-image:none;
+height:0px;
+}
+
+#TitleAreaFrameClass img {
+display:none;
+}
+
+.ms-titlearealeft {
+background:none;
+width:0;
+height:0;
+}
+
+.ms-titlearearight, .ms-areaseparatorright{
+background-image:none;
+}
+
+div.ms-areaseparatorright {
+background-image:none;
+background-color:transparent;
+border: none;
+}
+
+.ms-titleareaframe {
+height:0px;
+}
+
+.ms-consoleframe {
+padding-bottom:5px;
+}
+
+.body-wrapper {
+border:0;
+}
+
+
+
+/* Divs after nav / hidden */
+
+.ms-pagetitle {
+padding-bottom:5px;
+}
+
+.ms-bodyareacell {
+clear: left;
+margin-right:190px;
+width:auto;
+}
+
+.ms-bodyareaframe {
+border:none;
+font-size:1.5em;
+}
+
+table .ms-bodyareaframe {
+float:left;
+}
+
+table.ms-toolbar,table.ms-viewtoolbar{
+background-image:none;
+border:0;
+}
+
+.ms-bodyareapagemargin { /* clears bottom margin in IE */
+border:0;
+}
+
+#above-main {
+float:left;
+margin-right:173px;
+padding-top:5px;
+}
+
+
+
+ 
+
+/* Quick Launch */
+
+.ms-nav {
+position:absolute; /* positioned absolutely against ms-nav */
+float:right;
+right:0px;
+width:173px;
+background-image:none;
+top:-47px;
+}
+
+.ms-quicklaunchheader { 
+padding-top:10px;
+padding-bottom:10px;
+background-image:none;
+border:0px;
+}
+
+.ms-quickLaunch {
+border:0;
+padding:0;
+}
+
+.ms-quicklaunchouter {
+border:0;
+margin:0px;
+}
+
+.ms-navframe {
+padding-left:5px;
+border:0;
+}
+
+table.ms-navSubMenu1 .ms-navheader td {
+padding:3px 6px 4px 17px;
+background-image:none;
+border:0;
+}
+
+.ms-recyclebin {
+padding:3px 6px 4px 17px;
+}
+
+.ms-navitem td {
+border:0;
+padding:3px 6px 4px 17px;
+}
+
+table.ms-navitem,span.ms-navitem{ /* these declerations necessary to clear predefined bullets and classes */
+background-image:none;
+padding:0px;
+}
+
+table.ms-navselected td{
+background-image:none;
+}
+
+
+/* Content Area */
+
+.ms-pagebreadcrumb {
+width:82%;
+background-image:none;
+}
+
+#onetidPageTitleAreaFrame {
+background-image:none;
+height:5px;
+background-color:#fff;
+}
+
+.ms-viewselect, #onetidSelectView1 {
+border:none;
+float:right;
+}
+
+
+/* Content Header Specific */
+
+
+.ms-listdescription {
+font-family:Trebuchet MS, Arial, serif;
+font-size:1.5em;
+border:none;
+}
+
+#placeholder-style { /* turns empty placeholder tables off */
+display:none;
+}
+
+a#onetidViewSelector {
+background-image:none;
+}
+
+.ms-viewselector {
+background-image:none;
+border:none;
+}
+
+.ms-viewselectorhover {
+background-image:none;
+border:none;
+}
+
+.ms-menutoolbar td td.ms-viewselector,.ms-menutoolbar td td.ms-viewselectorhover,.ms-toolbar td td.ms-viewselector,.ms-toolbar td td.ms-viewselectorhover,.ms-authoringcontrols td td.ms-viewselector,.ms-authoringcontrols td td.ms-viewselectorhover{
+border:none;
+}
+
+div.ms-viewselector,div.ms-viewselectorhover{
+border:none;
+}
+
+.ms-HoverCellActive,.ms-SpLinkButtonActive {
+background-image:none;
+border:none;
+}
+
+.ms-HoverCellInActive,.ms-SpLinkButtonInActive {
+margin:0px;
+}
+
+
+
+/* Header Links */
+
+.ms-menutoolbar{
+background-image:none;
+border:none;
+}
+
+.ms-menutoolbar a:link, .ms-menutoolbar a:visited, .ms-menutoolbar a:hover {
+background-image:none;
+}
+
+.ms-toolbar a:link, .ms-toolbar a:visited, .ms-toolbar a:hover {
+background-image:none;
+}
+
+.ms-WPHeader TD{
+border:none;
+}
+
+.ms-menutoolbar td{
+border:none;
+}
+
+.ms-menutoolbar td a{
+border:none;
+}
+
+.ms-menutoolbar td a:hover{
+border:none;
+}
+
+.ms-menubuttoninactivehover{
+background-image:none;
+}
+
+.ms-menubuttonactivehover{
+background-image:none;
+}
+
+.ms-menubuttoninactivehover img{
+padding-bottom:1px;
+padding-left:2px;
+}
+
+.ms-menubuttonactivehover img{
+padding-bottom:1px;
+padding-left:2px;
+}
+
+td.ms-menutoolbarheader{
+border:none;
+}
+
+.ms-splitbuttondropdown img{
+padding-right:5px;
+}
+
+.ms-splitbuttonhover, .ms-splitbuttondropdown, .ms-splitbuttonhover, .ms-splitbuttontext {
+background-image:none;
+}
+
+.ms-splitbuttonhover .ms-splitbuttondropdown,.ms-splitbuttonhover .ms-splitbuttontext{
+padding-bottom:1px;
+}
+
+
+/* Picture Library */
+
+#picture-library {
+float:right;
+padding:0 0 0 5px;
+width:176px;
+}
+
+#ImgPreviewTable {
+float:right;
+}
+
+#ImgPreviewTable td {
+width:50%;
+padding-right:30px;
+}
+
+/* Right Area */
+
+.ms-rightareacell {
+	display:none;
+	width:0px;
+}
+
+/* Wiki */
+
+.ms-wikicontent {
+	line-height:normal;
+	padding-bottom:1.5em;
+}
+
+.ms-wikieditouter {
+	border-width:0px;
+	top:28px;
+	right:190px;
+}
+
+.ms-listdescription {
+	font-size:1em;
+}
+
+.ms-webpartpagedescription {
+	padding-left:0px;
+	padding-bottom:.25em;
+}
+
+/* tree view */
+
+div.ms-navSubMenu1 {
+	background-color:#efefef;
+}
+
+div.ms-treeviewouter div {
+	border-top-color:#696969;
+}
+
+#idSiteHierarchy {
+	padding-top:3px;
+	padding-bottom:4px;
+	padding-left:6px;
+}
+
+#idSiteHierarchy a {
+	border-width:0px !important;
+}
+
+.ms-treeviewouter div {
+	height:auto !important;
+	border-width:0px !important;
+}
+
+/* top right links */
+
+div.ms-globallinks-right table {
+float:left;
+position:relative;
+top:-2px;
+margin:0px;
+padding:0px;
+border:0px;
+}
+
+div.ms-globallinks-right .ms-SPLink {
+padding:0px 5px 0px 5px;
+}
+
+div.ms-globallinks-right table a {
+height:auto;
+}

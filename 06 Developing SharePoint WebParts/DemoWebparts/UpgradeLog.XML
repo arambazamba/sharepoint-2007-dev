@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DemoWebparts">
+</Property><Property Name="Solution File" Value="G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\DemoWebparts.sln">
+</Property><Property Name="User Options File" Value="G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\DemoWebparts.suo">
+</Property><Property Name="Date" Value="Freitag, 24. Oktober 2008">
+</Property><Property Name="Time" Value="11:41">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DemoWebparts.sln" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts.sln">
+</Event><Event ErrorLevel="0" Project="" Source="DemoWebparts.suo" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts.suo">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\DemoWebparts.csproj" Description="Project file successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts\DemoWebparts.csproj">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\PropertyCollectionBinder.cs" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts\PropertyCollectionBinder.cs">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\SPGridViewWP.cs" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts\SPGridViewWP.cs">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\CustomEditorPart.cs" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts\CustomEditorPart.cs">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\DataWebPart.cs" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts\DataWebPart.cs">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\Properties\AssemblyInfo.cs" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\SimpleWebpart.cs" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts\SimpleWebpart.cs">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\ConnectedWebparts.cs" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts\ConnectedWebparts.cs">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\Integrations.snk" Description="File successfully backed up as G:\Workshops\Developing SharePoint\Upcoming\Samples\06 Developing SharePoint WebParts\DemoWebparts\Backup\DemoWebparts\Integrations.snk">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\DemoWebparts.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DemoWebparts" Source="DemoWebparts\DemoWebparts.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DemoWebparts.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DemoWebparts.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DemoWebparts" Source="DemoWebparts\DemoWebparts.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

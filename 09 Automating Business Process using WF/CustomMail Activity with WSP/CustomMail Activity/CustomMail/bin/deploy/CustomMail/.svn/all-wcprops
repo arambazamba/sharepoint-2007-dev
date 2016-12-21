@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/SharePointDevelopment/!svn/ver/1/09%20Automating%20Business%20Process%20using%20WF/CustomMail%20Activity%20with%20WSP/CustomMail%20Activity/CustomMail/bin/deploy/CustomMail
+END
+setup.exe
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/SharePointDevelopment/!svn/ver/1/09%20Automating%20Business%20Process%20using%20WF/CustomMail%20Activity%20with%20WSP/CustomMail%20Activity/CustomMail/bin/deploy/CustomMail/setup.exe
+END
+wspbuilder.exe
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/SharePointDevelopment/!svn/ver/1/09%20Automating%20Business%20Process%20using%20WF/CustomMail%20Activity%20with%20WSP/CustomMail%20Activity/CustomMail/bin/deploy/CustomMail/wspbuilder.exe
+END
+CustomMail.wsp
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/SharePointDevelopment/!svn/ver/1/09%20Automating%20Business%20Process%20using%20WF/CustomMail%20Activity%20with%20WSP/CustomMail%20Activity/CustomMail/bin/deploy/CustomMail/CustomMail.wsp
+END
+cablib.dll
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/SharePointDevelopment/!svn/ver/1/09%20Automating%20Business%20Process%20using%20WF/CustomMail%20Activity%20with%20WSP/CustomMail%20Activity/CustomMail/bin/deploy/CustomMail/cablib.dll
+END
+deploywithstsadmnocontenturls.bat
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/SharePointDevelopment/!svn/ver/1/09%20Automating%20Business%20Process%20using%20WF/CustomMail%20Activity%20with%20WSP/CustomMail%20Activity/CustomMail/bin/deploy/CustomMail/deploywithstsadmnocontenturls.bat
+END
+deploywithstsadm.bat
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/SharePointDevelopment/!svn/ver/1/09%20Automating%20Business%20Process%20using%20WF/CustomMail%20Activity%20with%20WSP/CustomMail%20Activity/CustomMail/bin/deploy/CustomMail/deploywithstsadm.bat
+END
+deploywithwspbuilder.bat
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/SharePointDevelopment/!svn/ver/1/09%20Automating%20Business%20Process%20using%20WF/CustomMail%20Activity%20with%20WSP/CustomMail%20Activity/CustomMail/bin/deploy/CustomMail/deploywithwspbuilder.bat
+END

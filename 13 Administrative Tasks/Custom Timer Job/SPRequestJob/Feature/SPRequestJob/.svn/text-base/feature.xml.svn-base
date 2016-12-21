@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/"
+        Id="92D5FC94-1696-4d09-BA75-E1C995FA7DBF"
+        Title="SharePoint Keep-Alive-Job"
+		Description="Keeeps your SharePoint alive by requesting it at a scheduled interval"
+        Scope="Site"
+        Hidden="FALSE"
+        Version="1.0.0.0"
+		ReceiverAssembly="SPRequestJob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=910b70e55491137d"
+		ReceiverClass="Integrations.SPRequestJobReceiver">
+</Feature>

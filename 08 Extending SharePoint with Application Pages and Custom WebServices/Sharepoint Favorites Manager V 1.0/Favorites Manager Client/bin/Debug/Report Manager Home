@@ -1,0 +1,4 @@
+[DEFAULT]
+BASEURL=http://localhost:8069/Reports/Pages/Folder.aspx
+[InternetShortcut]
+URL=http://localhost:8069/Reports/Pages/Folder.aspx

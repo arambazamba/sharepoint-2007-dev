@@ -1,0 +1,7 @@
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Core\bin\Debug\FavoritesWebService.dll
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Core\bin\Debug\FavoritesWebService.pdb
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Core\bin\Debug\Microsoft.SharePoint.Search.dll
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Core\bin\Debug\Microsoft.SharePoint.Search.xml
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Core\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Core\obj\Debug\FavoritesWebService.dll
+E:\Working\Sharepoint Favorites Manager V 1.0\Favorites Manager Core\obj\Debug\FavoritesWebService.pdb

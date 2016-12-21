@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by STSDEV at 17.06.2008 11:59:55-->
+<Solution>
+  <SolutionId>4E632645-2F2C-4f3e-9BEE-2CE9B6D842D1</SolutionId>
+  <SolutionName>MailNotification</SolutionName>
+  <ResetWebServer>True</ResetWebServer>
+  <AssemblyDeployment>True</AssemblyDeployment>
+  <SafeControlSettings>False</SafeControlSettings>
+  <CasPermissions>False</CasPermissions>
+  <!--Assembly files-->
+  <Assemblies>
+    <Assembly Location="MailNotification.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="MailNotification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=089c6f0ded1f8cd2" Namespace="Integrations" TypeName="*" Safe="True" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+</Solution>

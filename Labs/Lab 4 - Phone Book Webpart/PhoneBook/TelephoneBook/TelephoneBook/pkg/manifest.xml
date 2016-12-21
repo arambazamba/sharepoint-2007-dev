@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution SolutionId="6f61da05-e0b6-4ca6-b311-4d825723209c" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <FeatureManifests>
+    <FeatureManifest Location="TelephoneBook\feature.xml" />
+  </FeatureManifests>
+  <Assemblies>
+    <Assembly Location="TelephoneBook.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+</Solution>

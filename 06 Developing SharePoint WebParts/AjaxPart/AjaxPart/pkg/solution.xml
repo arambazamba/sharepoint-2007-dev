@@ -1,0 +1,9 @@
+﻿<solution id="039272da-e384-46ee-8dd3-28f95697e2e1" name="AjaxPart">
+  <features>
+    <feature id="fd985187-26a6-453b-842c-9fe2ccd612c5">
+      <featureElements>
+        <featureElement id="205d27ef-9fe4-4b54-9d6c-14c1afdb163e" name="AjaxPart" />
+      </featureElements>
+    </feature>
+  </features>
+</solution>

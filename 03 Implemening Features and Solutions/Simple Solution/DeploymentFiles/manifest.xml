@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution SolutionId="344DE65D-E322-429d-9FD8-0A2AD99A9E56" ResetWebServer="True" xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!--Feature Manifest files-->
+	<FeatureManifests>
+		<FeatureManifest Location="SimpleFeature\feature.xml" />
+	</FeatureManifests>
+	<!--TEMPLATE files-->
+	<TemplateFiles>
+		<TemplateFile Location="IMAGES\SimpleFeature\components.png" />
+		<TemplateFile Location="LAYOUTS\SimpleFeaturePage.aspx"/>
+	</TemplateFiles>
+	<!--Assembly files-->
+	<Assemblies>
+		<Assembly Location="SimpleSolution.dll" DeploymentTarget="GlobalAssemblyCache">
+			<SafeControls>
+				<SafeControl Assembly="SimpleSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=733ae791148b24dc" Namespace="Integrations" TypeName="*" Safe="True" />
+			</SafeControls>
+		</Assembly>
+	</Assemblies>
+</Solution>

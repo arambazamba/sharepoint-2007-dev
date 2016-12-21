@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature
+  Id="9FA81163-668A-4F22-93A4-AE96386108DC"
+  Title="Auto Title Event Handler"
+  Description="An Event Handler that auto-completes the Title of Document Libraries"
+  Version="1.0.0.0"
+  Scope="Web"
+  Hidden="false"
+  ImageUrl="AutoTitle\components.png"
+  ReceiverAssembly="AutoTitleEvtHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8681a5db30e72967"
+  ReceiverClass="Integrations.AutoTitleFeatureReceiver" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest
+      Location="elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,27 @@
+;*** BEGIN **********************************************************
+;**                                                                **
+;** Automatically generated on: Tue Nov 20 21:58:41 2007           **
+;**                                                                **
+;** MakeCAB Version: (32) 1.00.0601 (03/18/97)                     **
+;**                                                                **
+;*** BEGIN **********************************************************
+[disk list]
+1,Disk 1
+[cabinet list]
+1,1,IEFavoritesManager.wsp
+[file list]
+1,1,manifest.xml,298
+1,1,IEFavoriteTypes\feature.xml,385
+1,1,IEFavoriteTypes\definitions.xml,729
+1,1,IEFavoritesList\feature.xml,698
+1,1,IEFavoritesList\IEFavorites\AllItems.aspx,2652
+1,1,IEFavoritesList\IEFavorites\DispForm.aspx,3191
+1,1,IEFavoritesList\IEFavorites\EditForm.aspx,3191
+1,1,IEFavoritesList\IEFavorites\NewForm.aspx,3191
+1,1,IEFavoritesList\IEFavorites\schema.xml,187709
+1,1,IEFavoritesList\ListTemplates\elementManifest.xml,273
+;*** END ************************************************************
+;**                                                                **
+;** Automatically generated on: Tue Nov 20 21:58:41 2007           **
+;**                                                                **
+;*** END ************************************************************

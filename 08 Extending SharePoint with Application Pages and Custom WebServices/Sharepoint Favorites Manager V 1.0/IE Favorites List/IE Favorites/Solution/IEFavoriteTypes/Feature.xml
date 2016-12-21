@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature Id="930E1F30-5A4C-4fe7-8F60-74F22B9CF435" Title="IE Favorites Types" Description="Base Types for using IE Favorites Manager" Scope="Site" Hidden="TRUE" DefaultResourceFile="core" xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ElementManifests>
+		<ElementManifest Location="definitions.xml" />
+	</ElementManifests>
+</Feature>

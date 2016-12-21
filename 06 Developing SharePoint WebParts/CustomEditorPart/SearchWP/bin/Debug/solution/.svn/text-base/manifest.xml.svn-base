@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution SolutionId="5fa71067-b419-4f94-aaa2-75293e956a36" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <FeatureManifests>
+    <FeatureManifest Location="SearchWP\feature.xml" />
+  </FeatureManifests>
+  <Assemblies>
+    <Assembly Location="SearchWP.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Integrations.SearchWP" Namespace="Integrations" TypeName="SearchWP" Safe="True" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+</Solution>

@@ -1,0 +1,12 @@
+﻿<Feature Id="DF8E5369-DF61-439e-AF52-E4611C7E3187" 			
+		 Title="SimpleFeature" 
+         Description="Demonstration of the SharePoint Feature Pattern" 
+		 Scope="Web" 
+         Hidden="FALSE"  
+		 xmlns="http://schemas.microsoft.com/sharepoint/"
+         ReceiverClass="Integrations.SimpleFeatureReceiver"
+         ReceiverAssembly="SimpleFeature, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1591538b3855f55e">
+  <ElementManifests>	  
+    <ElementManifest Location="Elements.xml"/>   
+  </ElementManifests>  
+</Feature>

@@ -1,0 +1,25 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B528B3C3-C0DE-4716-99C3-9D73AD417599/d:12/d:TEMPLATE/d:FEATURES/d:AutoTitle/f:elements.xml" caret="134" scrollPosition="0|0" />
+      <File id="B528B3C3-C0DE-4716-99C3-9D73AD417599/f:AutoTitle.cs" caret="212" scrollPosition="0|3" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

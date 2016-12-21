@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!--the site column "Favorites Topic"-->
+	<Field Type="Text" DisplayName="Favorites Topic" Required="FALSE" MaxLength="255" Group="Integrations" ID="{34AD2201-9D0D-4b2b-B7D9-DFB430E44370}" Hidden="FALSE" StaticName="Favorites_x0020_Topic" Name="Favorites_x0020_Topic">
+	</Field>
+	<!--the content type using the topic field-->
+	<ContentType ID="0x010500928cb91c5cb3446eba3f181da9702f5d" Name="IE Favorite" Group="Integrations" Description="An instance of your IE Favorites" Version="0">
+		<FieldRefs>
+			<FieldRef ID="{34AD2201-9D0D-4b2b-B7D9-DFB430E44370}" Name="Topic" />
+		</FieldRefs>
+	</ContentType>
+</Elements>

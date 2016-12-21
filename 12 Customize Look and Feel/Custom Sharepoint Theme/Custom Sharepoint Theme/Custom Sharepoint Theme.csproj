@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3F5F7D83-CAD1-4C6F-A8B4-F33FCA83E79E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Custom_Sharepoint_Theme</RootNamespace>
+    <AssemblyName>Custom Sharepoint Theme</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FeatureReceiver.cs" />
+    <Compile Include="FeatureThemesJob.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DeploymentFiles\Microsoft.SharePoint.targets" />
+    <None Include="DeploymentFiles\MyCustomTheme.wsp" />
+    <None Include="DeploymentFiles\SolutionPackage.ddf" />
+    <None Include="KeyFile.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DeploymentFiles\manifest.xml" />
+    <Content Include="DeploymentFiles\MyCustomTheme.wsp.cab" />
+    <Content Include="DeploymentFiles\SolutionConfig.xml" />
+    <Content Include="RootFiles\TEMPLATE\FEATURES\MyCustomTheme\feature.xml" />
+    <Content Include="RootFiles\TEMPLATE\FEATURES\MyCustomTheme\SPTHEMES.XML" />
+    <Content Include="RootFiles\TEMPLATE\IMAGES\MyCustomTheme\AfricanPith32.gif" />
+    <Content Include="RootFiles\TEMPLATE\IMAGES\thMyCustomTheme.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\alldayOver_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\allday_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\ApplyFiltersActive.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\ApplyFiltersHoverOver.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\ApplyFiltersInactive.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\calnumbttnfocus_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\calnumbttntoday_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\calnumbttn_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\cnspgrdn_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\cnsugrdn_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\CreateGraphic_classic.jpg" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\filedialogselected_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\formtitlegrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\linksectiongrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\listheadergrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\menubuttonhover_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\mgradlargertl_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\mgradlarge_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\mgradrtl_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\mgrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\mossExtension.css" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\MyCustomTheme.INF" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\navBullet_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\Navshape_classic.jpg" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\pagebackgrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\pageTitleBKGD_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\partgrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\portaltabhover.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\portaltabselected.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\portraitbackground.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\quickLaunchHeader_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\rtebnhov_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\rtebnsel_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\selectednavbullet_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\selectednav_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\settingsbkg_classic.jpg" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\SettingsGraphic_classic.jpg" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\siteactionsmenugrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\siteactionsmenuhovergrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\siteTitleBKGD_classic.jpg" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\templatepickerselected_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\templatepickerunselected_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\theme.css" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\toolgrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\topnavhover_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\topnavselected_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\topnavunselected_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\Topshape_classic.jpg" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\viewheadergrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\viewselectorgrad_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\weekbox_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\wpqamh_classic.gif" />
+    <Content Include="RootFiles\TEMPLATE\THEMES\MyCustomTheme\wpqam_classic.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,27 @@
+.OPTION EXPLICIT
+.Set CabinetNameTemplate=MailNotification.wsp
+.set DiskDirectoryTemplate=CDROM
+.Set CompressionType=MSZIP
+.Set UniqueFiles=off
+.Set Cabinet=on
+.Set DiskDirectory1=DeploymentFiles
+
+;*** Solution manifest
+DeploymentFiles\manifest.xml
+
+;*** Assembly files
+bin/debug/MailNotification.dll
+
+;*** add files for MailNotification feature
+.Set DestinationDir=MailNotification
+RootFiles\TEMPLATE\FEATURES\MailNotification\elements.xml
+RootFiles\TEMPLATE\FEATURES\MailNotification\feature.xml
+
+
+;***********************************
+;*** Begin TemplateFiles section ***
+;***********************************
+
+.Set DestinationDir=IMAGES\MailNotification
+RootFiles\TEMPLATE\IMAGES\MailNotification\components.png
+

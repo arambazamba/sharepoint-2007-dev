@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LobSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.microsoft.com/office/2006/03/BusinessDataCatalog BDCMetadata.xsd" Type="Database" Version="1.0.0.0" Name="AdventureWorksLOBSystem" xmlns="http://schemas.microsoft.com/office/2006/03/BusinessDataCatalog">
+  <Properties>
+    <Property Name="WildcardCharacter" Type="System.String">%</Property>
+  </Properties>
+  <AccessControlList>
+    <AccessControlEntry Principal="CLASS\administrator">
+      <Right BdcRight="Edit" />
+      <Right BdcRight="Execute" />
+      <Right BdcRight="SetPermissions" />
+      <Right BdcRight="SelectableInClients" />
+    </AccessControlEntry>
+  </AccessControlList>
+  <LobSystemInstances>
+    <LobSystemInstance Name="AdventureWorksInstance">
+      <Properties>
+        <Property Name="DatabaseAccessProvider" Type="Microsoft.Office.Server.ApplicationRegistry.SystemSpecific.Db.DbAccessProvider">SqlServer</Property>
+        <Property Name="AuthenticationMode" Type="Microsoft.Office.Server.ApplicationRegistry.SystemSpecific.Db.DbAuthenticationMode">PassThrough</Property>
+        <Property Name="RdbConnection Data Source" Type="System.String">chiron</Property>
+        <Property Name="RdbConnection Initial Catalog" Type="System.String">AdventureWorks</Property>
+        <Property Name="RdbConnection Integrated Security" Type="System.String">SSPI</Property>
+        <Property Name="RdbConnection Pooling" Type="System.String">false</Property>
+      </Properties>
+    </LobSystemInstance>
+  </LobSystemInstances>
+  <Entities>
+    <Entity EstimatedInstanceCount="0" Name="HumanResources.Employee">
+      <Properties>
+        <Property Name="DefaultAction" Type="System.String">View Profile</Property>
+      </Properties>
+      <AccessControlList>
+        <AccessControlEntry Principal="CLASS\administrator">
+          <Right BdcRight="Edit" />
+          <Right BdcRight="Execute" />
+          <Right BdcRight="SetPermissions" />
+          <Right BdcRight="SelectableInClients" />
+        </AccessControlEntry>
+      </AccessControlList>
+      <Identifiers>
+        <Identifier TypeName="System.Int32" Name="[EmployeeID]" />
+      </Identifiers>
+      <Methods>
+        <Method Name="GetHumanResources.[Employee]">
+          <Properties>
+            <Property Name="RdbCommandText" Type="System.String">Select [EmployeeID],[NationalIDNumber],[ContactID],[LoginID],[ManagerID],[Title],[BirthDate],[MaritalStatus],[Gender],[HireDate],[SalariedFlag],[VacationHours],[SickLeaveHours],[CurrentFlag],[rowguid],[ModifiedDate] From HumanResources.[Employee] Where ([EmployeeID]&gt;=@GeneratedMinEmployeeID) and ([EmployeeID]&lt;=@GeneratedMaxEmployeeID)</Property>
+            <Property Name="RdbCommandType" Type="System.Data.CommandType, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Text</Property>
+          </Properties>
+          <AccessControlList>
+            <AccessControlEntry Principal="CLASS\administrator">
+              <Right BdcRight="Edit" />
+              <Right BdcRight="Execute" />
+              <Right BdcRight="SetPermissions" />
+              <Right BdcRight="SelectableInClients" />
+            </AccessControlEntry>
+          </AccessControlList>
+          <FilterDescriptors>
+            <FilterDescriptor Type="Comparison" Name="[EmployeeID]" />
+          </FilterDescriptors>
+          <Parameters>
+            <Parameter Direction="In" Name="@GeneratedMinEmployeeID">
+              <TypeDescriptor TypeName="System.Int32" IdentifierName="[EmployeeID]" AssociatedFilter="[EmployeeID]" Name="[EmployeeID]">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="HumanResources.[Employee]Finder" Type="System.Int32">0</DefaultValue>
+                  <DefaultValue MethodInstanceName="HumanResources.[Employee]SpecificFinder" Type="System.Int32">0</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="In" Name="@GeneratedMaxEmployeeID">
+              <TypeDescriptor TypeName="System.Int32" IdentifierName="[EmployeeID]" AssociatedFilter="[EmployeeID]" Name="[EmployeeID]">
+                <DefaultValues>
+                  <DefaultValue MethodInstanceName="HumanResources.[Employee]Finder" Type="System.Int32">9999999</DefaultValue>
+                  <DefaultValue MethodInstanceName="HumanResources.[Employee]SpecificFinder" Type="System.Int32">9999999</DefaultValue>
+                </DefaultValues>
+              </TypeDescriptor>
+            </Parameter>
+            <Parameter Direction="Return" Name="HumanResources.[Employee]">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="HumanResources.[Employee]DataReader">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="HumanResources.[Employee]DataRecord">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierName="[EmployeeID]" Name="EmployeeID" />
+                      <TypeDescriptor TypeName="System.String" Name="NationalIDNumber" />
+                      <TypeDescriptor TypeName="System.Int32" Name="ContactID" />
+                      <TypeDescriptor TypeName="System.String" Name="LoginID" />
+                      <TypeDescriptor TypeName="System.Int32" Name="ManagerID" />
+                      <TypeDescriptor TypeName="System.String" Name="Title" />
+                      <TypeDescriptor TypeName="System.DateTime" Name="BirthDate" />
+                      <TypeDescriptor TypeName="System.String" Name="MaritalStatus" />
+                      <TypeDescriptor TypeName="System.String" Name="Gender" />
+                      <TypeDescriptor TypeName="System.DateTime" Name="HireDate" />
+                      <TypeDescriptor TypeName="System.Boolean" Name="SalariedFlag" />
+                      <TypeDescriptor TypeName="System.Int16" Name="VacationHours" />
+                      <TypeDescriptor TypeName="System.Int16" Name="SickLeaveHours" />
+                      <TypeDescriptor TypeName="System.Boolean" Name="CurrentFlag" />
+                      <TypeDescriptor TypeName="System.Guid" Name="rowguid" />
+                      <TypeDescriptor TypeName="System.DateTime" Name="ModifiedDate" />
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+          <MethodInstances>
+            <MethodInstance Type="Finder" ReturnParameterName="HumanResources.[Employee]" ReturnTypeDescriptorName="HumanResources.[Employee]DataReader" ReturnTypeDescriptorLevel="0" Name="HumanResources.[Employee]Finder">
+              <AccessControlList>
+                <AccessControlEntry Principal="CLASS\administrator">
+                  <Right BdcRight="Edit" />
+                  <Right BdcRight="Execute" />
+                  <Right BdcRight="SetPermissions" />
+                  <Right BdcRight="SelectableInClients" />
+                </AccessControlEntry>
+              </AccessControlList>
+            </MethodInstance>
+            <MethodInstance Type="SpecificFinder" ReturnParameterName="HumanResources.[Employee]" ReturnTypeDescriptorName="HumanResources.[Employee]DataReader" ReturnTypeDescriptorLevel="0" Name="HumanResources.[Employee]SpecificFinder">
+              <AccessControlList>
+                <AccessControlEntry Principal="CLASS\administrator">
+                  <Right BdcRight="Edit" />
+                  <Right BdcRight="Execute" />
+                  <Right BdcRight="SetPermissions" />
+                  <Right BdcRight="SelectableInClients" />
+                </AccessControlEntry>
+              </AccessControlList>
+            </MethodInstance>
+          </MethodInstances>
+        </Method>
+        <Method Name="HumanResources.[Employee]IDEnumerator">
+          <Properties>
+            <Property Name="RdbCommandType" Type="System.Data.CommandType, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">Text</Property>
+            <Property Name="RdbCommandText" Type="System.String">Select [EmployeeID] from HumanResources.[Employee]</Property>
+          </Properties>
+          <AccessControlList>
+            <AccessControlEntry Principal="CLASS\administrator">
+              <Right BdcRight="Edit" />
+              <Right BdcRight="Execute" />
+              <Right BdcRight="SetPermissions" />
+              <Right BdcRight="SelectableInClients" />
+            </AccessControlEntry>
+          </AccessControlList>
+          <Parameters>
+            <Parameter Direction="Return" Name="[EmployeeID]s">
+              <TypeDescriptor TypeName="System.Data.IDataReader, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" IsCollection="true" Name="HumanResources.[Employee]s">
+                <TypeDescriptors>
+                  <TypeDescriptor TypeName="System.Data.IDataRecord, System.Data, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="HumanResources.[Employee]">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.Int32" IdentifierName="[EmployeeID]" Name="EmployeeID" />
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </TypeDescriptors>
+              </TypeDescriptor>
+            </Parameter>
+          </Parameters>
+          <MethodInstances>
+            <MethodInstance Type="IdEnumerator" ReturnParameterName="[EmployeeID]s" ReturnTypeDescriptorName="HumanResources.[Employee]s" ReturnTypeDescriptorLevel="0" Name="[EmployeeID]EnumeratorInstance">
+              <AccessControlList>
+                <AccessControlEntry Principal="CLASS\administrator">
+                  <Right BdcRight="Edit" />
+                  <Right BdcRight="Execute" />
+                  <Right BdcRight="SetPermissions" />
+                  <Right BdcRight="SelectableInClients" />
+                </AccessControlEntry>
+              </AccessControlList>
+            </MethodInstance>
+          </MethodInstances>
+        </Method>
+      </Methods>
+      <Actions>
+        <Action Position="1" IsOpenedInNewWindow="false" Url="http://chiron:24709/ssp/admin/Content/HumanResources.Employee.aspx?EmployeeID={0}" ImageUrl="/_layouts/1033/images/viewprof.gif" Name="View Profile">
+          <ActionParameters>
+            <ActionParameter Index="0" Name="EmployeeID" />
+          </ActionParameters>
+        </Action>
+      </Actions>
+    </Entity>
+  </Entities>
+</LobSystem>

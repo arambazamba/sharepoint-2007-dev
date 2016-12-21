@@ -1,0 +1,4 @@
+bin\Debug\IE Favorites.dll
+bin\Debug\IE Favorites.pdb
+obj\Debug\IE Favorites.dll
+obj\Debug\IE Favorites.pdb

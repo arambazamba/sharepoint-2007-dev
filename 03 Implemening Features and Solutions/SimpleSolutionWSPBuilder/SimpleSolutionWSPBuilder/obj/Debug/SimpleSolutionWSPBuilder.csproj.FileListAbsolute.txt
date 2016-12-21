@@ -1,0 +1,14 @@
+E:\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\obj\Debug\ResolveAssemblyReference.cache
+E:\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\bin\Debug\SimpleSolutionWSPBuilder.dll
+E:\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\bin\Debug\SimpleSolutionWSPBuilder.pdb
+E:\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\bin\Debug\Microsoft.SharePoint.Search.dll
+E:\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\bin\Debug\Microsoft.SharePoint.Search.xml
+E:\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\obj\Debug\SimpleSolutionWSPBuilder.dll
+E:\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\obj\Debug\SimpleSolutionWSPBuilder.pdb
+E:\sharepointdevelopment\03 Implemening Features and Solutions\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\bin\Debug\SimpleSolutionWSPBuilder.dll
+E:\sharepointdevelopment\03 Implemening Features and Solutions\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\bin\Debug\SimpleSolutionWSPBuilder.pdb
+E:\sharepointdevelopment\03 Implemening Features and Solutions\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\bin\Debug\Microsoft.SharePoint.Search.dll
+E:\sharepointdevelopment\03 Implemening Features and Solutions\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\bin\Debug\Microsoft.SharePoint.Search.xml
+E:\sharepointdevelopment\03 Implemening Features and Solutions\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\obj\Debug\ResolveAssemblyReference.cache
+E:\sharepointdevelopment\03 Implemening Features and Solutions\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\obj\Debug\SimpleSolutionWSPBuilder.dll
+E:\sharepointdevelopment\03 Implemening Features and Solutions\SimpleSolutionWSPBuilder\SimpleSolutionWSPBuilder\obj\Debug\SimpleSolutionWSPBuilder.pdb

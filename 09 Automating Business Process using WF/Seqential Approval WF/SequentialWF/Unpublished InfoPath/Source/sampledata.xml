@@ -1,0 +1,9 @@
+<my:InitForm xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2008-10-15T18:25:29" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<my:Approver/>
+	<my:Instructions/>
+	<xd:SchemaInfo LocalName="myFields" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2008-10-15T18:25:29">
+		<xd:Namespaces>
+			<xd:Namespace LocalName="myFields" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2008-10-15T18:25:29"/>
+		</xd:Namespaces>
+	</xd:SchemaInfo>
+</my:InitForm>

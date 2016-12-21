@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Feature Id="3973BD64-D106-43b5-9AE5-26C349E165BE" 
+   Title="CopyToFeature"
+   Description="Copies a file to a choosen destination"
+   Version="1.0.0.0"
+   Scope="Site" 
+   ReceiverAssembly="CopyToFeature, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b8c1e1a21841a588"
+   ReceiverClass="Integrations.CopyToFeatureReceiver"
+   xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml" />
+  </ElementManifests>
+</Feature>

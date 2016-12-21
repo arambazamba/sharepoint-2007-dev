@@ -1,0 +1,26 @@
+;*** SPSolutions.SharePoint.FIM MakeCab Directive
+;
+.OPTION Explicit ; Generate errors
+.Set CabinetNameTemplate=CustomMenus.wsp
+.Set DiskDirectoryTemplate=D:\SolutionsDemoWSP
+.Set CompressionType=MSZIP
+.Set UniqueFiles=Off
+.Set Cabinet=On
+.Set DiskDirectory1=Package
+;
+; \
+;**************************************************
+manifest.xml
+
+
+.Set DestinationDir=CustomSiteSettings
+Features\CustomSiteSettings\Feature.xml
+Features\CustomSiteSettings\Elements.xml
+Features\CustomSiteSettings\FavoritesSettings.aspx
+
+.Set DestinationDir=CustomSiteActions
+Features\CustomSiteActions\Feature.xml
+Features\CustomSiteActions\Elements.xml
+
+;
+;***End

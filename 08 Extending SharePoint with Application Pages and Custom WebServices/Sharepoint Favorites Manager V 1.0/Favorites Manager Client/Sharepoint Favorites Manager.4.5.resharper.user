@@ -1,0 +1,229 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@Microsoft">
+      <Item value="SharePoint" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="AllWebs" priority="0" />
+      <Item value="Lists" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="Title" priority="1" />
+      <Item value="ToArray" priority="0" />
+      <Item value="Serialize" priority="0" />
+      <Item value="ToString" priority="0" />
+      <Item value="Deserialize" priority="0" />
+      <Item value="GetType" priority="0" />
+      <Item value="Url" priority="5" />
+      <Item value="Modified" priority="0" />
+      <Item value="LastWriteTime" priority="0" />
+      <Item value="LocalPath" priority="0" />
+      <Item value="FullName" priority="0" />
+      <Item value="Topic" priority="4" />
+      <Item value="Display" priority="2" />
+      <Item value="WriteLine" priority="1" />
+      <Item value="Close" priority="1" />
+      <Item value="CreateShortcut" priority="0" />
+      <Item value="TargetPath" priority="0" />
+      <Item value="Description" priority="0" />
+      <Item value="Save" priority="0" />
+      <Item value="DirectoryName" priority="0" />
+      <Item value="Arguments" priority="0" />
+      <Item value="ReadToEnd" priority="0" />
+      <Item value="Write" priority="0" />
+      <Item value="Delete" priority="0" />
+      <Item value="Dispose" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Collections" priority="1" />
+      <Item value="Net" priority="0" />
+      <Item value="Xml" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Collections">
+      <Item value="Generic" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Integrations.WebsService.Webs">
+      <Item value="GetAllSubWebCollection" priority="1" />
+      <Item value="Credentials" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net">
+      <Item value="CredentialCache" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.CredentialCache">
+      <Item value="DefaultCredentials" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNode">
+      <Item value="OuterXml" priority="0" />
+      <Item value="ChildNodes" priority="0" />
+      <Item value="Attributes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;string&gt;">
+      <Item value="Add" priority="2" />
+      <Item value="AddRange" priority="0" />
+      <Item value="ToArray" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlAttributeCollection">
+      <Item value="GetNamedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="Items" priority="0" />
+      <Item value="SelectedText" priority="2" />
+      <Item value="SelectedItem" priority="2" />
+      <Item value="SelectedIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox.ObjectCollection">
+      <Item value="Count" priority="0" />
+      <Item value="AddRange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Integrations.FavoritesService">
+      <Item value="GetFavoritesListsForWeb" priority="0" />
+      <Item value="UploadItems" priority="0" />
+      <Item value="GetSites" priority="0" />
+      <Item value="GetRemoteFavorites" priority="0" />
+      <Item value="GetListsForFeatureID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Integrations.CWS.Service">
+      <Item value="GetFavoritesListsForWeb" priority="0" />
+      <Item value="UploadFavorites" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPWeb">
+      <Item value="GetListsOfType" priority="0" />
+      <Item value="Lists" priority="1" />
+      <Item value="Title" priority="2" />
+      <Item value="Webs" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string[]">
+      <Item value="GetUpperBound" priority="1" />
+      <Item value="GetLength" priority="0" />
+      <Item value="Clone" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Integrations.FavoritesEntry&gt;">
+      <Item value="ToArray" priority="3" />
+      <Item value="Add" priority="1" />
+      <Item value="AddRange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml">
+      <Item value="Serialization" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="ToString" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
+      <Item value="Image" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ImageList">
+      <Item value="Images" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPList">
+      <Item value="BaseTemplate" priority="0" />
+      <Item value="TemplateFeatureId" priority="0" />
+      <Item value="Items" priority="2" />
+      <Item value="Title" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Microsoft.SharePoint.SPList&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Integrations">
+      <Item value="FavWS" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPSite">
+      <Item value="RootWeb" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Integrations.FavWS.Service">
+      <Item value="GetSites" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="Substring" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Integrations.FavoritesEntry">
+      <Item value="Url" priority="5" />
+      <Item value="Display" priority="3" />
+      <Item value="Topic" priority="1" />
+      <Item value="SPID" priority="1" />
+      <Item value="Modified" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPFieldUrlValue">
+      <Item value="Url" priority="2" />
+      <Item value="Description" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPListItem">
+      <Item value="Update" priority="0" />
+      <Item value="UniqueId" priority="0" />
+      <Item value="Title" priority="0" />
+      <Item value="Delete" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="Exists" priority="0" />
+      <Item value="CreateDirectory" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists" priority="0" />
+      <Item value="Delete" priority="0" />
+      <Item value="Create" priority="0" />
+      <Item value="CreateText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@IWshRuntimeLibrary">
+      <Item value="IWshShortcut" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <EditorManager>
+    <RecentFiles>
+      <File id="B395686C-A987-483A-9D5F-E26AA36EA7A8/f:wfFavorites.Designer.cs" caret="0" scrollPosition="0|0" />
+      <File id="B395686C-A987-483A-9D5F-E26AA36EA7A8/f:Program.cs" caret="429" scrollPosition="0|0" />
+      <File id="B395686C-A987-483A-9D5F-E26AA36EA7A8/d:Properties/f:Resources.resx" caret="6469" scrollPosition="0|65" />
+      <File id="D76B5D72-ECF1-46B2-9A44-30FFB9D4A1F8/d:App_Code/f:Web.Config" caret="0" scrollPosition="0|0" />
+      <File id="82F16FFC-6AD2-443A-A992-9B7F16614A4D/f:FavoritesLogic.cs" caret="0" scrollPosition="0|0" />
+      <File id="82F16FFC-6AD2-443A-A992-9B7F16614A4D/f:Favorites.cs" caret="0" scrollPosition="0|0" />
+      <File id="82F16FFC-6AD2-443A-A992-9B7F16614A4D/f:FavoritesEntry.cs" caret="4768" scrollPosition="0|60" />
+      <File id="B395686C-A987-483A-9D5F-E26AA36EA7A8/f:wfFavorites.cs" caret="3369" scrollPosition="0|69" />
+      <File id="D76B5D72-ECF1-46B2-9A44-30FFB9D4A1F8/f:Favorites.asmx" caret="0" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>True</RemoveRedundantThis>
+    <ShortenReferences>True</ShortenReferences>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="82F16FFC-6AD2-443A-A992-9B7F16614A4D/f:FavoritesLogic.cs" caret="0" fromTop="0" />
+      <File id="82F16FFC-6AD2-443A-A992-9B7F16614A4D/f:FavoritesEntry.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

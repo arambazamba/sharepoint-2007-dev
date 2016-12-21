@@ -1,0 +1,11 @@
+<Feature Title="IE Favorites" Id="d222342d-5556-40a7-be42-97dbd08a9d96" Description="" Version="1.0.0.0" Scope="Web" Hidden="FALSE" DefaultResourceFile="core" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <!--<ElementManifest Location="ListTemplates\elementManifest.xml" />-->
+    <ElementFile Location="IEFavorites\schema.xml" />
+    <ElementFile Location="IEFavorites\AllItems.aspx" />
+    <ElementFile Location="IEFavorites\DispForm.aspx" />
+    <ElementFile Location="IEFavorites\EditForm.aspx" />
+    <ElementFile Location="IEFavorites\NewForm.aspx" />
+    <ElementManifest Location="ListTemplates\elementManifest.xml" />
+  </ElementManifests>
+</Feature>

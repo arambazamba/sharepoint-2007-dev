@@ -1,0 +1,65 @@
+TD.ms-titleareaframe,Div.ms-titleareaframe,.ms-pagetitleareaframe,.ms-mwspagetitleareaframe,.ms-consoletitleareaframe{
+background:#ffffff url("pageTitleBKGD_classic.gif") repeat-x;
+}
+.ms-consoletitleareaframebottom{
+background:transparent;
+}
+table.ms-applyfiltersinactive {
+ background-image:url('ApplyFiltersInActive.gif');
+}
+table.ms-applyfiltersactive {
+ background-image:url('ApplyFiltersActive.gif');
+}
+table.ms-applyfiltershoverover {
+ background-image:url('ApplyFiltersHoverOver.gif');
+}
+.leftnavPic{
+ background-image: url("portraitbackground.gif");
+}
+.ms-ptabcn, .ms-sctabcn {
+    background-repeat:repeat-x;
+    background-color: #ffe69f;
+}
+.ms-ptabcnhover, .ms-sctabcnhover {
+    background-repeat:repeat-x;
+    background-color:#fecd71; 
+}
+.ms-ptabcfhover, .ms-sctabcfhover {
+    background-repeat:none;
+    background-repeat: repeat-x;
+    background-color:#fecd71;
+}
+.ms-main .ms-sctabcf {
+    border-top: solid 1px #fff;
+    border-left: solid 1px #fff;
+    border-bottom: solid 1px #97B4E9;
+    background-image:none;
+}
+.ms-sctabcnhover a:hover, .ms-sctabcfhover a:hover {
+color:#000;
+}
+.ms-searchsummarymain
+{
+    background-color: #f1f6fd;
+}
+
+div.ms-searchChannelTitle
+{
+    BACKGROUND: url("searchgradient.jpg") #73A1DD repeat-x;
+    border-width: 1px;
+    border-color: #aebcd1;
+    border-style: solid;
+}
+.ms-searchChannelTitle span
+{
+    color: #003399 !important;
+}
+
+.ms-searchtamain, div.srch-BestBetsBottom, .srch-HCMain
+{
+    border-bottom: solid 1px #aebcd1;
+}
+
+.ms-srchresultstop, .srch-stats{
+    background-color: #f1f6fd !important;
+}

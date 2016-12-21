@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution SolutionId="4E632645-2F2C-4f3e-9BEE-2CE9B6D842D1" ResetWebServer="True" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!--Feature Manifest files-->
+  <FeatureManifests>
+    <FeatureManifest Location="MailNotification\feature.xml" />
+  </FeatureManifests>
+  <!--TEMPLATE files-->
+  <TemplateFiles>
+    <TemplateFile Location="IMAGES\MailNotification\components.png" />
+  </TemplateFiles>
+  <!--Assembly files-->
+  <Assemblies>
+    <Assembly Location="MailNotification.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+</Solution>

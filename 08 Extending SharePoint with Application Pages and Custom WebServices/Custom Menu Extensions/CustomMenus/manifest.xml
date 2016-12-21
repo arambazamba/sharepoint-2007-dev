@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Solution SolutionId="714255CE-FB46-4e9a-942B-9A7B9CAE3786"
+          xmlns="http://schemas.microsoft.com/sharepoint/" DeploymentServerType="WebFrontEnd">
+	<FeatureManifests>
+		<FeatureManifest Location="CustomSiteActions\feature.xml"/>
+		<FeatureManifest Location="CustomSiteSettings\feature.xml"/>
+	</FeatureManifests>
+	<TemplateFiles>
+		<TemplateFile Location="CustomSiteSettings\FavoritesSettings.aspx"/>
+	</TemplateFiles>
+</Solution>

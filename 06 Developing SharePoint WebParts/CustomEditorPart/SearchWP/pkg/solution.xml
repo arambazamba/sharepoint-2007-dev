@@ -1,0 +1,9 @@
+﻿<solution id="5fa71067-b419-4f94-aaa2-75293e956a36" name="SearchWP">
+  <features>
+    <feature id="468307eb-5e97-4a57-84ab-0c221b658a2a">
+      <featureElements>
+        <featureElement id="c43904f3-08b0-4f8f-bd55-3f6b4462005a" name="SearchWP" />
+      </featureElements>
+    </feature>
+  </features>
+</solution>

@@ -1,0 +1,30 @@
+;*** Knowledge Base Directives
+;
+.OPTION Explicit ; Generate errors
+.Set CabinetNameTemplate=IEFavoritesManager.wsp
+.Set DiskDirectoryTemplate=C:\
+.Set CompressionType=MSZIP
+.Set UniqueFiles=Off
+.Set Cabinet=On
+.Set DiskDirectory1=Package
+;
+; \
+;**************************************************
+manifest.xml
+
+.Set DestinationDir=IEFavoriteTypes
+IEFavoriteTypes\feature.xml
+IEFavoriteTypes\definitions.xml
+
+.Set DestinationDir=IEFavoritesList
+IEFavoritesList\feature.xml
+.Set DestinationDir=IEFavoritesList\IEFavorites
+IEFavoritesList\IEFavorites\AllItems.aspx
+IEFavoritesList\IEFavorites\DispForm.aspx
+IEFavoritesList\IEFavorites\EditForm.aspx
+IEFavoritesList\IEFavorites\NewForm.aspx
+IEFavoritesList\IEFavorites\schema.xml
+.Set DestinationDir=IEFavoritesList\ListTemplates
+IEFavoritesList\ListTemplates\elementManifest.xml
+;
+;***End

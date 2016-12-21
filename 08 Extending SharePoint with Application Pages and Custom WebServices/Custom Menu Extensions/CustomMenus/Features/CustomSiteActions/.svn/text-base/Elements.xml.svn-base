@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!-- Site Actions Dropdown -->
+	<CustomAction Id="Integrations.CreateSite"
+		GroupId="SiteActions"
+		ImageUrl="/_layouts/images/actionssettings.gif"
+		Location="Microsoft.SharePoint.StandardMenu"
+		Sequence="1001"
+		Rights="DeleteListItems"
+		Title="CreateSite"
+		Description="Creates a site">
+		<UrlAction Url="~site/_layouts/newsbweb.aspx"/>
+	</CustomAction>
+	<CustomAction Id="Integrations.Structure"
+	 GroupId="SiteActions"
+	 ImageUrl="/_layouts/images/actionssettings.gif"
+	 Location="Microsoft.SharePoint.StandardMenu"
+	 Sequence="1001"
+	 Rights="DeleteListItems"
+	 Title="Show Structure"
+	 Description="Shows the structure of your site">
+		<UrlAction Url="~site/_layouts/sitemanager.aspx"/>
+	</CustomAction>
+</Elements>

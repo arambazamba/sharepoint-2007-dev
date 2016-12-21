@@ -1,0 +1,29 @@
+.OPTION EXPLICIT
+.Set CabinetNameTemplate=SimpleSolution.wsp
+.set DiskDirectoryTemplate=CDROM
+.Set CompressionType=MSZIP
+.Set UniqueFiles=off
+.Set Cabinet=on
+.Set DiskDirectory1=DeploymentFiles
+
+;*** Solution manifest
+DeploymentFiles\manifest.xml
+
+;*** Assembly files
+bin/debug/SimpleSolution.dll
+
+;*** add files for SimpleFeature feature
+.Set DestinationDir=SimpleFeature
+DeploymentFiles\FEATURES\SimpleFeature\feature.xml
+DeploymentFiles\FEATURES\SimpleFeature\elements.xml
+
+.Set DestinationDir=LAYOUTS
+DeploymentFiles\FEATURES\SimpleFeature\SimpleFeaturePage.aspx
+
+
+;***********************************
+;*** Begin TemplateFiles section ***
+;***********************************
+
+.Set DestinationDir=IMAGES\SimpleFeature
+DeploymentFiles\IMAGES\SimpleFeature\components.png

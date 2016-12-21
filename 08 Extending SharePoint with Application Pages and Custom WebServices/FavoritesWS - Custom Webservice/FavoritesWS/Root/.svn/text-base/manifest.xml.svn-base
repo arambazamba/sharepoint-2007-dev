@@ -1,0 +1,21 @@
+﻿<Solution SolutionId="520181A2-F582-4f65-B42D-4864086EF766" xmlns="http://schemas.microsoft.com/sharepoint/">  
+	<!--<FeatureManifests>    
+		<FeatureManifest Location="FeatureLibrary\feature.xml"/>  
+	</FeatureManifests>-->  
+	<TemplateFiles>    
+		<TemplateFile Location="ControlTemplates\Featurelibraryform.ascx"/>	
+	</TemplateFiles> 
+	<RootFiles>  
+		<RootFile Location="ISAPI\Favorites.asmx" />
+		<RootFile Location="ISAPI\Favoritesdisco.aspx" />
+		<RootFile Location="ISAPI\Favoriteswsdl.aspx" />
+	</RootFiles>  
+	<Assemblies>
+		<Assembly  DeploymentTarget="GlobalAssemblyCache" Location="FavoritesWebService.dll">
+			<SafeControls>
+				<SafeControl Assembly="FavoritesWebService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8e375618044c714" Namespace="Integrations" TypeName="*" Safe="True" />
+			</SafeControls>
+		</Assembly>
+		
+	</Assemblies>
+</Solution>

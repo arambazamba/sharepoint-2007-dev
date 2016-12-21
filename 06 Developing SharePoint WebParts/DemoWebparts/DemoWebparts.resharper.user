@@ -1,0 +1,120 @@
+<Configuration>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>True</RemoveRedundantThis>
+    <ShortenReferences>True</ShortenReferences>
+  </ReFormatCode>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <EditorManager>
+    <RecentFiles>
+      <File id="B0B7E446-8941-4561-A37B-3A6733842605/f:PropertyCollectionBinder.cs" caret="679" scrollPosition="0|0" />
+      <File id="B0B7E446-8941-4561-A37B-3A6733842605/f:ConnectedWebparts.cs" caret="1052" scrollPosition="0|30" />
+      <File id="B0B7E446-8941-4561-A37B-3A6733842605/f:SPGridViewWP.cs" caret="4986" scrollPosition="0|125" />
+      <File id="B0B7E446-8941-4561-A37B-3A6733842605/f:CustomEditorPart.cs" caret="651" scrollPosition="0|52" />
+      <File id="B0B7E446-8941-4561-A37B-3A6733842605/f:DataWebPart.cs" caret="4996" scrollPosition="0|117" />
+    </RecentFiles>
+  </EditorManager>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.WebControls.SPGridView">
+      <Item value="AllowPaging" priority="0" />
+      <Item value="PageSize" priority="0" />
+      <Item value="PageIndexChanging" priority="0" />
+      <Item value="PageIndex" priority="0" />
+      <Item value="AutoGenerateColumns" priority="0" />
+      <Item value="SelectedRowStyle" priority="0" />
+      <Item value="AllowGrouping" priority="0" />
+      <Item value="GroupField" priority="0" />
+      <Item value="GroupFieldDisplayName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewPageEventArgs">
+      <Item value="NewPageIndex" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Table">
+      <Item value="RenderControl" priority="0" />
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="1" />
+      <Item value="Format" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="ShowFooter" priority="0" />
+      <Item value="ID" priority="0" />
+      <Item value="DataBind" priority="0" />
+      <Item value="PageIndex" priority="2" />
+      <Item value="DataSource" priority="0" />
+      <Item value="DataKeyNames" priority="1" />
+      <Item value="DataMember" priority="0" />
+      <Item value="AutoGenerateSelectButton" priority="0" />
+      <Item value="AutoGenerateColumns" priority="0" />
+      <Item value="Rows" priority="0" />
+      <Item value="SelectedIndexChanging" priority="0" />
+      <Item value="SelectedIndexChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="ID" priority="0" />
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="ID" priority="0" />
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableRow">
+      <Item value="ID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Control">
+      <Item value="RenderControl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewSelectEventArgs">
+      <Item value="NewSelectedIndex" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="Cells" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Text" priority="1" />
+      <Item value="Click" priority="0" />
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="Columns" priority="1" />
+      <Item value="DataField" priority="0" />
+      <Item value="ColumnName" priority="1" />
+      <Item value="HeaderText" priority="0" />
+      <Item value="HtmlEncode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DataControlFieldCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.WebControls.SPMenuField">
+      <Item value="HeaderText" priority="0" />
+      <Item value="TextFields" priority="0" />
+      <Item value="MenuTemplateId" priority="0" />
+      <Item value="NavigateUrlFields" priority="0" />
+      <Item value="NavigateUrlFormat" priority="0" />
+      <Item value="TokenNameAndValueFields" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.WebControls.MenuTemplate">
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.WebControls.MenuItemTemplate">
+      <Item value="ClientOnClickNavigateUrl" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

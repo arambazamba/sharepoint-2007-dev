@@ -1,0 +1,72 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1550674-D44D-4464-B7C7-BC6ED9944169}</ProjectGuid>
+    <ProjectTypeGuids>{9E5D3E2D-E4E2-418e-8D80-2F0DA9A94F9A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>IE_Favorites</RootNamespace>
+    <AssemblyName>IE Favorites</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>URL</StartAction>
+    <StartURL>http://$(ComputerName)/</StartURL>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>URL</StartAction>
+    <StartURL>http://$(ComputerName)/</StartURL>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio />
+  </ProjectExtensions>
+  <ItemGroup>
+    <Content Include="Solution\IEFavoriteTypes\definitions.xml" />
+    <Content Include="Solution\IEFavoriteTypes\Feature.xml" />
+    <Content Include="Solution\IEFavoritesList\feature.xml" />
+    <Content Include="Solution\IEFavoritesList\IEFavorites\AllItems.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Solution\IEFavoritesList\IEFavorites\DispForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Solution\IEFavoritesList\IEFavorites\EditForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Solution\IEFavoritesList\IEFavorites\NewForm.aspx" />
+    <Content Include="Solution\IEFavoritesList\IEFavorites\schema.xml" />
+    <Content Include="Solution\IEFavoritesList\ListTemplates\elementManifest.xml" />
+    <Content Include="Solution\MAKECAB.EXE" />
+    <Content Include="Solution\manifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Solution\package.ddf" />
+    <None Include="Solution\Package\IEFavoritesManager.wsp" />
+  </ItemGroup>
+</Project>

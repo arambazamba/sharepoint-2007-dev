@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by STSDEV at 9/12/2008 5:37:48 AM-->
+<Solution>
+  <SolutionId>B98C3ACA-D782-4F1D-A862-8CE88CE3ACFE</SolutionId>
+  <SolutionName>MyCustomTheme</SolutionName>
+  <ResetWebServer>True</ResetWebServer>
+  <AssemblyDeployment>True</AssemblyDeployment>
+  <SafeControlSettings>False</SafeControlSettings>
+  <CasPermissions>False</CasPermissions>
+  <!--Assembly files-->
+  <Assemblies>
+    <Assembly Location="MyCustomTheme.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="" Namespace="MyCustomTheme" TypeName="*" Safe="True" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+</Solution>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" Image="ee6ee1b7-a3a9-4eef-98c5-e312d58c5820" Timestamp="633306904940000000" XmlDocIndexTimestamp="633353109840000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.933.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="37b14a12-f60d-4c31-8d07-4c2c2b44fa57" Timestamp="633559670920000000" XmlDocIndexTimestamp="633559670920000000" />
+</Assemblies>

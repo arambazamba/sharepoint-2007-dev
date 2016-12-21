@@ -1,0 +1,202 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.webpart" caret="672" scrollPosition="0|0" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:Properties/f:AssemblyInfo.cs" caret="0" scrollPosition="0|0" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:WebPart1.xml" caret="0" scrollPosition="0|0" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="1247" scrollPosition="0|30" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="1525" scrollPosition="0|48" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="1232" scrollPosition="0|19" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="2713" scrollPosition="0|26" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="2509" scrollPosition="0|48" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="3324" scrollPosition="0|66" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="3776" scrollPosition="0|66" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="4290" scrollPosition="0|26" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="282" scrollPosition="0|0" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="1609" scrollPosition="0|18" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="1841" scrollPosition="0|30" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="1458" scrollPosition="0|15" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="1774" scrollPosition="0|33" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="1458" scrollPosition="0|27" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="1506" scrollPosition="0|33" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="0" scrollPosition="0|0" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="0" scrollPosition="0|0" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="614" scrollPosition="0|0" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="479" scrollPosition="0|0" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="786" scrollPosition="0|18" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="836" scrollPosition="0|4" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="397" scrollPosition="0|4" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="2805" scrollPosition="0|48" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="2379" scrollPosition="0|24" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="993" scrollPosition="0|12" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="833" scrollPosition="0|12" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="650" scrollPosition="0|21" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="1234" scrollPosition="0|33" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:EditorPart.cs" caret="1247" scrollPosition="0|30" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="4292" scrollPosition="0|30" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="1854" scrollPosition="0|30" />
+      <File id="A0D93CAF-10DD-4855-BD9B-3C23BDF363D1/d:WebPart1/f:SearchWP.cs" caret="1508" scrollPosition="0|42" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="protected" priority="9" />
+      <Item value="Table" priority="1" />
+      <Item value="DropDownList" priority="3" />
+      <Item value="GridView" priority="1" />
+      <Item value="SPWeb" priority="2" />
+      <Item value="SPContext" priority="3" />
+      <Item value="TableCell" priority="1" />
+      <Item value="TableRow" priority="1" />
+      <Item value="tbl" priority="2" />
+      <Item value="new" priority="7" />
+      <Item value="void" priority="1" />
+      <Item value="Control" priority="1" />
+      <Item value="cell" priority="0" />
+      <Item value="row" priority="0" />
+      <Item value="if" priority="4" />
+      <Item value="ddCustomers" priority="6" />
+      <Item value="ListBox" priority="0" />
+      <Item value="string" priority="6" />
+      <Item value="SPList" priority="1" />
+      <Item value="web" priority="3" />
+      <Item value="list" priority="8" />
+      <Item value="foreach" priority="2" />
+      <Item value="SPListItem" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="result" priority="5" />
+      <Item value="c" priority="2" />
+      <Item value="return" priority="2" />
+      <Item value="from" priority="0" />
+      <Item value="select" priority="0" />
+      <Item value="s" priority="0" />
+      <Item value="DataTableDataSourceView" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="filteredItems" priority="0" />
+      <Item value="gvCustomers" priority="3" />
+      <Item value="dt" priority="0" />
+      <Item value="AddToTable" priority="1" />
+      <Item value="Controls" priority="2" />
+      <Item value="true" priority="0" />
+      <Item value="titleVal" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="ListName" priority="1" />
+      <Item value="false" priority="0" />
+      <Item value="gvResult" priority="0" />
+      <Item value="TableWidth" priority="1" />
+      <Item value="Unit" priority="0" />
+      <Item value="CustomEditorPart" priority="0" />
+      <Item value="EditorPart" priority="0" />
+      <Item value="SearchWP" priority="0" />
+      <Item value="ddList" priority="3" />
+      <Item value="Label" priority="3" />
+      <Item value="lblListMsg" priority="2" />
+      <Item value="else" priority="0" />
+      <Item value="lblMessage" priority="1" />
+      <Item value="public" priority="0" />
+      <Item value="ddTitleSelection" priority="2" />
+      <Item value="BindListDD" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="writer" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.SharePoint.SPContext">
+      <Item value="Current" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPContext">
+      <Item value="Web" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="Add" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableRow">
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Table">
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableRowCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="DataSource" priority="0" />
+      <Item value="SelectedIndexChanged" priority="0" />
+      <Item value="DataBind" priority="1" />
+      <Item value="AutoPostBack" priority="0" />
+      <Item value="SelectedValue" priority="3" />
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPWeb">
+      <Item value="Lists" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPList">
+      <Item value="Items" priority="0" />
+      <Item value="Title" priority="2" />
+      <Item value="Hidden" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="0" />
+      <Item value="Contains" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPListItem">
+      <Item value="Title" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPListItemCollection">
+      <Item value="GetDataTable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="0" />
+      <Item value="DataBind" priority="0" />
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Integrations.SearchWP">
+      <Item value="ListName" priority="2" />
+      <Item value="BindDD" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPListCollection">
+      <Item value="[]" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlTextWriter">
+      <Item value="Write" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Control">
+      <Item value="RenderControl" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

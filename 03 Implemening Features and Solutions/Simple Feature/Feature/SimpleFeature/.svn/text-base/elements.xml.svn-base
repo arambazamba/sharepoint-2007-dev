@@ -1,0 +1,9 @@
+﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SimpleFeaturePage" Path="" Url="">
+    <File Url="SimpleFeaturePage.aspx" Type="Ghostable" IgnoreIfAlreadyExists="FALSE" />   
+  </Module>
+  <CustomAction Id="SiteActionsToolbar" GroupId="SiteActions" Location="Microsoft.SharePoint.StandardMenu" Sequence="1000"
+                Title="Simple Feature Info">
+    <UrlAction Url="~site/SimpleFeaturePage.aspx"/>
+  </CustomAction>  
+</Elements>

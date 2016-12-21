@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Receivers ListTemplateId="101">
+		<Receiver>
+			<Name>AutoTitleEvent</Name>
+			<Type>ItemAdded</Type>
+			<SequenceNumber>1000</SequenceNumber>
+			<Assembly>AutoTitleEvtHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8681a5db30e72967</Assembly>
+			<Class>Integrations.AutoTitle</Class>
+		</Receiver>
+	</Receivers>
+</Elements>

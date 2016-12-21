@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Lists.Properties.Resources.resources
+obj\Debug\Lists.csproj.GenerateResource.Cache
+bin\Debug\Lists.exe
+bin\Debug\Lists.pdb
+bin\Debug\Microsoft.SharePoint.Search.dll
+bin\Debug\Microsoft.SharePoint.Search.xml
+obj\Debug\Lists.exe
+obj\Debug\Lists.pdb
+obj\Debug\Lists.wfFavorites.resources

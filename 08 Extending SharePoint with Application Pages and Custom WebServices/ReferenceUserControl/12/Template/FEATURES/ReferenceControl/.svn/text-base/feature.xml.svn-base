@@ -1,0 +1,9 @@
+﻿<Feature Id="DD903E99-F44A-46a2-9AFD-006D47C39EA8"
+		 Title="Reference User Control"
+         Description="Referencing a user Control from an ASPX"
+		 Scope="Web"
+         Hidden="FALSE"  xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ElementManifests>
+		<ElementManifest Location="Elements.xml"/>
+	</ElementManifests>
+</Feature>

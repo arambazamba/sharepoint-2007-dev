@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Sharepoint Favorites Manager">
+</Property><Property Name="Solution File" Value="D:\Developing SharePoint 2007 Applications\02 Using the Object Model\Consuming and Implementing Webservices\Favorites Manager Client\Sharepoint Favorites Manager.sln">
+</Property><Property Name="Date" Value="Samstag, 06. Oktober 2007">
+</Property><Property Name="Time" Value="17:56:08">
+</Property></Properties><Event ErrorLevel="2" Project="Favorites Manager Client.csproj" Source=" Favorites Manager Client.csproj:(Error List)" Description="ERROR: Unable to parse project file Favorites Manager Client.csproj.&#xA;">
+</Event></UpgradeLog>

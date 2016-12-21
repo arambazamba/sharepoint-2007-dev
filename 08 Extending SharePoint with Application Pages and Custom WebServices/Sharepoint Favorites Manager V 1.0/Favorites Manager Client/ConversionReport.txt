@@ -1,0 +1,8 @@
+﻿ERROR: Unable to parse project file Favorites Manager Client.csproj.
+
+=========================COMMENTS=================
+Project Favorites Manager Client.csproj has been converted successfully at October 06 2007, 17:56:09.
+ERROR: Unable to parse project file Favorites Manager Client.csproj.
+
+=========================COMMENTS=================
+Project Favorites Manager Client.csproj has been converted successfully at October 06 2007, 17:56:54.

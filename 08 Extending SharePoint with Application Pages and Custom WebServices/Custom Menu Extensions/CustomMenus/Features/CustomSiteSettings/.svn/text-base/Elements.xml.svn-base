@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<CustomActionGroup 
+		Id="Integrations.CustomSiteSettingsGroup"
+		Location="Microsoft.SharePoint.SiteSettings"
+        Title="Favorites Manager"
+        Sequence="100"
+        Description="Settings for SharePoint Favorites Manager"
+    />
+	<CustomAction 
+		Id="Integrations.Favorites Settings" 
+		GroupId="Integrations.CustomSiteSettingsGroup"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="10" 
+		Title="Manage Favorites Manager Settings" >
+        <UrlAction
+            Url="~site/_layouts/FavoritesSettings.aspx" />
+      </CustomAction>
+    </Elements>

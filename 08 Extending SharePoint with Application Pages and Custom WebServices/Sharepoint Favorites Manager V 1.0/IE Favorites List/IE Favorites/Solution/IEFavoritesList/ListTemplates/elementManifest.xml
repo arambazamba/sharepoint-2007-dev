@@ -1,0 +1,3 @@
+﻿<Elements  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate  Name="IEFavorites" Type="100" BaseType="0" OnQuickLaunch="TRUE" SecurityBits="11" Sequence="410" DisplayName="IE Favorites" Description="" Image="/_layouts/images/itgen.gif" />
+</Elements>

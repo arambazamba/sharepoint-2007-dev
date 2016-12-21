@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by STSDEV at 9/12/2008 5:43:51 AM-->
+<Feature
+  Id="FAB832D7-95EA-4F4F-9FD8-294DF24C63A9"
+  Title="A sample feature: MyCustomTheme"
+  Description="This SharePoint solution was created by the STSDEV utility (http://codeplex.com/stsdev)"
+  Version="1.0.0.0"
+  Scope="Farm"
+  Hidden="false"
+  ImageUrl="MyCustomTheme\AfricanPith32.gif"
+  ReceiverAssembly="MyCustomTheme, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b93bf7717b6b0708"
+  ReceiverClass="MyCustomTheme.FeatureReceiver" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementFile
+      Location="SPTHEMES.XML" />
+  </ElementManifests>
+  <Properties>
+    <Property Key="Solutionizing:ThemesFile" Value="SPTHEMES.XML" />
+  </Properties>
+</Feature>

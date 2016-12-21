@@ -1,0 +1,14 @@
+<Feature  Id="028889DD-D29B-4612-BA02-85A24500F3FE"
+          Title="Hide Navigation"
+          Description="Hides the navigation of the site"
+          Version="12.0.0.0"
+          Scope="Site"
+          Hidden="False"
+		  ReceiverAssembly="HideNavigation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=80c6eff561f928ee"
+          ReceiverClass ="Integrations.NavigationReceiver" 
+          DefaultResourceFile="core"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ElementManifests>
+        <ElementManifest Location="ProvisionedFiles.xml"/>
+    </ElementManifests>
+</Feature>

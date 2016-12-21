@@ -1,0 +1,14 @@
+<Feature  Id="5FEE8E5B-B94A-467d-9EA9-BDC0269B719E"
+          Title="Custom Master"
+          Description="Custom Master Sample"
+          Version="12.0.0.0"
+          Scope="Site"
+          Hidden="False"
+		  ReceiverAssembly="SampleMasterPage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d89d8b53939cdc55"
+          ReceiverClass ="Integrations.CustomMasterReceiver" 
+          DefaultResourceFile="core"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ElementManifests>
+        <ElementManifest Location="ProvisionedFiles.xml"/>
+    </ElementManifests>
+</Feature>

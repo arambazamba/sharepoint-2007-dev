@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature Id="468307eb-5e97-4a57-84ab-0c221b658a2a" Title="SearchWP" Scope="Site" Version="1.0.0.0" Hidden="FALSE" DefaultResourceFile="core" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="SearchWP\WebPart1.xml" />
+    <ElementFile Location="SearchWP\SearchWP.webpart" />
+  </ElementManifests>
+</Feature>

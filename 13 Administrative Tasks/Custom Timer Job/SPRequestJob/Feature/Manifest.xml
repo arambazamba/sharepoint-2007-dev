@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/"
+          DeploymentServerType="WebFrontEnd"
+          ResetWebServer="TRUE"
+          SolutionId="E7E8543D-E2D7-472e-9D19-428FFB94864A">
+	<Assemblies>
+		<Assembly DeploymentTarget="GlobalAssemblyCache"
+				  Location="SPRequestJob.dll"/>
+	</Assemblies>
+	<FeatureManifests>
+		<FeatureManifest Location="SPRequestJob\feature.xml"/>
+	</FeatureManifests>
+</Solution>
